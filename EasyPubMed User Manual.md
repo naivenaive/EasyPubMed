@@ -28,7 +28,7 @@ Support web browser: Chrome, Edge
 
 - **EasyPubMed Tool Bar**
 <p align="center">
-<img src="/md_image/image-20200621173353849.png" alt="image-20200621173353849" width=70% >
+<img src="md_image/image-20200621173353849.png" alt="image-20200621173353849" width=70% >
 </p>
 After installing EasyPubMed, a tool bar will display below each article in the PubMed website.
 
@@ -38,11 +38,11 @@ After installing EasyPubMed, a tool bar will display below each article in the P
 
    - JCR Quartile Ranking: Data from 2019 *Journal Citation Reports*, the best journal performance in all subcategories (include SSCI and SCIE) is tagged. For example, if the journal get Q1 in A subcategory and Q3 in B subcategory, the journal will be labelled as Q1, the best performance. We use Q1 (red), Q2 (yellow), Q3 (green), Q4 (grey) with different color to display different JCR quartile ranking. NA stands for not recorded in the report.
 
-    <img src="/md_image/image-20200621180515339.png" alt="image-20200621180515339" width=20% />
+    <img src="md_image/image-20200621180515339.png" alt="image-20200621180515339" width=20% />
 
    - CAS Block Ranking: Data from *CAS Journal Block Ranking Report (2019.12.26)*, the best journal performance in all subcategories is tagged. We use B1 (red), B2 (yellow), B3 (green), B4 (grey) with different color to display different CAS block ranking. NA stands for not recorded in the report.
 
-    <img src="/md_image/image-20200621181012739.png" alt="image-20200621181012739" width=20% />
+    <img src="md_image/image-20200621181012739.png" alt="image-20200621181012739" width=20% />
 
    - The difference between JCR Quartile Ranking and CAS Block Ranking is well documented in 
 
@@ -52,23 +52,23 @@ After installing EasyPubMed, a tool bar will display below each article in the P
 
 4. Link to the Sci-Hub website with the corresponding article. If the article's doi is not found, the link will be disabled.
 <p align="center">
-   <img src="/md_image/image-20200622185138582.png" alt="image-20200622185138582" width=70% />
+   <img src="md_image/image-20200622185138582.png" alt="image-20200622185138582" width=70% />
 </p>
 
 5. Display a full-screen PDF website without sidebar.  Analyzing the Sci-Hub link takes some time. If a full-text PDF link is found, it will be enabled and display 'PDF(Full Text)', otherwise, it will be grayed and display 'PDF(NOT FOUND)'.
 <p align="center">
-      <img src="/md_image/image-20200622073622374.png" alt="image-20200622073622374" width=70% />
+      <img src="md_image/image-20200622073622374.png" alt="image-20200622073622374" width=70% />
 </p>
 
 6. Show article's information in BibTex format. You can save it or copy it to clipboard. It may take some time to fetch the Bibtex data from NCBI database. The filename of the downloaded file and the BibTex entry name is a combination of 'PMID', article PMID number, first author's last name and the publication year, like 'PMID32109013_Guan_2020'.
 <p align="center">
-      <img src="/md_image/image-20200622073913101.png" alt="image-20200622073913101" width=70% />
+      <img src="md_image/image-20200622073913101.png" alt="image-20200622073913101" width=70% />
 </p>
 
 - **Popup Page**
 
 <p align="center">
-     <img src="/md_image/image-20200622120039682.png" alt="image-20200622120039682" width=40% />
+     <img src="md_image/image-20200622120039682.png" alt="image-20200622120039682" width=40% />
 </p>
 
 Left click on the EP (EasyPubMed) chrome extension button, a popup page will appear.
@@ -115,7 +115,7 @@ The EasyPubMed extension is completely free despite it takes us a lot of time to
 I am a medical student and used pubmed very often. Several years ago, I found a chrome extension named Pubmedy. It helped me a lot and saved me a lot of time to find the full-text of an article. The extension is really great but it had not updated since 2018. In May 2020, the new pubmed website completely replaced the old one and Pubmedy couldn't work anymore. I found it hard to get the full text when using the new pubmed. Furthermore, I used the bibliography in BibTex a lot, however, the pubmed website did not support. So, I decided to make a new chrome extension for the new pubmed website. Though I have learnt some R and Python programming skills, as a medical student, I knew little about how to develop a chrome extension. I used the code of pubmedy as a template and learnt to write an extension using JavaScript, CSS and HTML by myself. After overcoming many obstacles, I finished this project. Hope you find it useful. If you have any suggestions, please feel free to contact me easypubmed.project@gmail.com.
 
 ## Author
-<left><img src="/md_image/image-20200622192159106.png" alt="image-20200622192159106"  width=20% />
+<left><img src="md_image/image-20200622192159106.png" alt="image-20200622192159106"  width=20% />
 
 ##### Tian Zhen
 
@@ -130,7 +130,7 @@ I am a medical student and used pubmed very often. Several years ago, I found a 
 ##### Interest: 
 
 - Have a chat about the meaning of life
-- Dermatology (Psoriasis, Acne...), cosmetic dermatology (Laser, Botox...)
+- Dermatology (Psoriasis, Acne...), cosmetic dermatology (Cosmetics, Laser...)
 - Popularization of science
 - Medical statistics, bioinformatics, handle medical data using R or Python
 - Chrome extension develop using JavaScript, CSS and HTML 
