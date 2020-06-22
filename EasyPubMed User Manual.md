@@ -37,7 +37,7 @@ After installing EasyPubMed, a tool bar will display below each article in the P
 
    - JCR Quartile Ranking: Data from 2019 *Journal Citation Reports*, the best journal performance in all subcategories (include SSCI and SCIE) is tagged. For example, if the journal get Q1 in A subcategory and Q3 in B subcategory, the journal will be labelled as Q1, the best performance. We use Q1 (red), Q2 (yellow), Q3 (green), Q4 (grey) with different color to display different JCR quartile ranking. NA stands for not recorded in the report.
 
-     ![image-20200621180515339](/md_image/image-20200621180515339.png|width=50%)
+     ![image-20200621180515339](/md_image/image-20200621180515339.png|width=50)
 
    - CAS Block Ranking: Data from *CAS Journal Block Ranking Report (2019.12.26)*, the best journal performance in all subcategories is tagged. We use B1 (red), B2 (yellow), B3 (green), B4 (grey) with different color to display different CAS block ranking. NA stands for not recorded in the report.
 
