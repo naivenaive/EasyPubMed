@@ -1,0 +1,238 @@
+html {}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    max-width: 310px;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+div:focus {
+    outline: none;
+}
+
+button {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background-color: none;
+}
+
+#frame {
+    width: 310px;/*245*/
+}
+
+.line {
+    width: 300px;
+    height: 40px;
+    padding-left: 15px;
+    border-radius: 5px;
+    margin: 1px 0;
+}
+
+.line:hover {
+    background-color: #EEEEEE;
+    cursor: pointer;
+}
+
+.title,
+.shorttitle {
+    width: 300px;
+    height: 40px;
+    color: #235686;
+    font-size: 15px;
+    line-height: 40px;
+    vertical-align: middle;
+    font-family: Helvetica, sans-serif;
+    padding-left: 0px;
+    float: left;
+}
+
+.title {
+    width: 300px;
+}
+
+/*---------- 快速搜索 ----------*/
+
+.input_button {
+    width: 280px;
+    height: 35px;
+    padding: 5px;
+    padding-left: 15px;
+    margin: 0px 0;
+}
+
+#scihub_url, #input_scihub {
+    width:140px;
+    height: 29px;
+    opacity: 0.5;
+    float: left;
+}
+
+.button {
+    height: 35px;
+    width: 130px;
+    padding: 0px;
+    margin:0px;
+    background-color: #20558a;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    text-align:center;
+    font-size: 16px;
+}
+
+
+/*#qsp {
+    border-top: 1px solid #E5E5E5;
+}
+
+#qss {
+    border-bottom: 1px solid #E5E5E5;
+}*/
+
+/*#psb {
+    background-color: #20558a;
+}
+
+#ssb {
+    background-color: #20558a;
+}
+
+#psb,
+#ssb {
+    cursor: pointer;
+}
+*/
+
+/*---------- 被引次数 ----------*/
+
+.switchframe {
+    width: 300px;
+    height: 40px;
+    padding: 0.5px 0px;
+    border-bottom: none;/*1px solid #E5E5E5*/
+}
+
+.switchframe_title {
+    width: 150px;
+    height: 40px;
+    float: left;
+}
+
+.sf_title {
+    width: 150px;
+    height: 40px;
+    color: #235686;
+    font-size: 15px;
+    line-height: 40px;
+    vertical-align: middle;
+    font-family: Helvetica, sans-serif;
+    padding-left: 15px;
+    float: left;
+}
+.switch {
+    float: left;
+    width: 70px;
+    height: 30px;
+    margin-left:30px;
+    padding: 5px 15px 5px 0;
+}
+
+#jcr_switch1, #cas_switch1{
+    width: 70px;
+    height: 24px;
+    border-radius: 12px;
+    position: relative;
+}
+
+#jcr_switch2, #cas_switch2{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    position: absolute;
+    background: white;
+}
+
+.open1 {
+    top: 3px;
+    background: #20558a;;
+
+}
+
+.open2 {
+    top: 2px;
+    right: 2px;
+
+}
+
+.close1 {
+    top: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.close2 {
+    left: 2px;
+    top: 1px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/*---------- 版本信息 ----------*/
+
+#versiondiv {
+    width: 300px;
+    height: 40px;
+    padding-left: 15px;
+}
+
+#versiontitle,
+#version {
+    float: left;
+}
+
+.ep-alert {
+    display: none;
+    position: fixed;
+    top: 35%;
+    left: 25px;
+    width: 200px;
+    max-width: 200px;
+    margin-left: 0px;
+    z-index: 99999;
+    padding: 15px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.ep-alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.ep-alert-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.ep-alert-warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+
+.ep-alert-danger {
+    color: #ffffff;
+    background-color: #e91e63;
+    border-color: #e91e63;
+}
+
+.pmid-sci-hub, .cited-num{
+    cursor: pointer;
+}

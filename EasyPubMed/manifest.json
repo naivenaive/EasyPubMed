@@ -1,0 +1,52 @@
+{
+    "name": "EasyPubMed",
+    "manifest_version": 2,
+    "version": "0.0.1",
+    "description": "Show CAS Journal Quantile, Imapct Factor(IF) on PubMed, full-text download and get Bibtex citation",
+    "short_name": "EP",
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "icons": {
+        "16": "images/ep_16.png",
+        "48": "images/ep_48.png",
+        "128": "images/ep_128.png"
+    },
+    "browser_action": {
+        "default_icon": "images/ep_128.png",
+        "default_title": "EasyPubMed",
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "scripts": [
+            "script/jquery.js",
+            "script/background.js"
+        ]
+    },
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+    "content_scripts": [
+        {
+            "js": [
+                "script/jquery.js",
+                "script/main.js"
+            ],
+            "css": [
+                "css/style.css"
+            ],
+            "matches": ["*://pubmed.ncbi.nlm.nih.gov/*"],
+            "run_at": "document_end"
+        }
+    ],
+    "web_accessible_resources":[
+        "images/*.png",
+        "data/imfqb_pubmed_abbv.json",
+        "css/style.css"
+    ],
+    "permissions": [
+        "webRequest",
+        "tabs",
+        "contextMenus",
+        "storage",
+        "<all_urls>"
+        // "https://eutils.ncbi.nlm.nih.gov/*",
+        // "https://sci-hub.*/*"
+    ]
+}
