@@ -42,7 +42,7 @@ After installing EasyPubMed, a tool bar will display below each article in the P
 
    - CAS Block Ranking: Data from *CAS Journal Block Ranking Report (2019.12.26)*, the best journal performance in all subcategories is tagged. We use B1 (red), B2 (yellow), B3 (green), B4 (grey) with different color to display different CAS block ranking. NA stands for not recorded in the report.
 
-   - <img src="/md_image/image-20200621181012739.png" alt="image-20200621181012739" style="zoom:50%;" />
+   - <img src="/md_image/image-20200621181012739.png" alt="image-20200621181012739" width=50% />
 
    - The difference between JCR Quartile Ranking and CAS Block Ranking is well documented in 
 
@@ -52,11 +52,11 @@ After installing EasyPubMed, a tool bar will display below each article in the P
 
 4. Link to the Sci-Hub website with the corresponding article. If the article's doi is not found, the link will be disabled.
 
-   <img src="/md_image/image-20200622185138582.png" alt="image-20200622185138582" style="zoom:50%;" />
+   <img src="/md_image/image-20200622185138582.png" alt="image-20200622185138582" width=50% />
 
 5. Display a full-screen PDF website without sidebar.  Analyzing the Sci-Hub link takes some time. If a full-text PDF link is found, it will be enabled and display 'PDF(Full Text)', otherwise, it will be grayed and display 'PDF(NOT FOUND)'.
 
-      <img src="/md_image/image-20200622073622374.png" alt="image-20200622073622374" style="zoom:50%;" />
+      <img src="/md_image/image-20200622073622374.png" alt="image-20200622073622374" width=50% />
 
 6. Show article's information in BibTex format. You can save it or copy it to clipboard. It may take some time to fetch the Bibtex data from NCBI database. The filename of the downloaded file and the BibTex entry name is a combination of 'PMID', article PMID number, first author's last name and the publication year, like 'PMID32109013_Guan_2020'.
 
@@ -64,7 +64,7 @@ After installing EasyPubMed, a tool bar will display below each article in the P
 
 - **Popup Page**
 
-<img src="/md_image/image-20200622120039682.png" alt="image-20200622120039682" width=50% />
+     <img src="/md_image/image-20200622120039682.png" alt="image-20200622120039682" width=50% />
 
 Left click on the EP (EasyPubMed) chrome extension button, a popup page will appear.
 
