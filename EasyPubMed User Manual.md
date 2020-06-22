@@ -28,12 +28,8 @@ Support web browser: Chrome, Edge
 
 - **EasyPubMed Tool Bar**
 
-<<<<<<< HEAD
-<img src="/md_image/image-20200621173353849.png" alt="image-20200621173353849" style="zoom:50%;" />
+<img src="/md_image/image-20200621173353849.png" alt="image-20200621173353849" width=50% />
 
-=======
-![image-20200621173353849](/md_image/image-20200621173353849.png)
->>>>>>> 4d85d71edbb6d93cabdce417454a0ce7161e64bb
 After installing EasyPubMed, a tool bar will display below each article in the PubMed website.
 
 1. EasyPubMed Icon: Link to EasyPubMed  homepage in Github
@@ -42,11 +38,7 @@ After installing EasyPubMed, a tool bar will display below each article in the P
 
    - JCR Quartile Ranking: Data from 2019 *Journal Citation Reports*, the best journal performance in all subcategories (include SSCI and SCIE) is tagged. For example, if the journal get Q1 in A subcategory and Q3 in B subcategory, the journal will be labelled as Q1, the best performance. We use Q1 (red), Q2 (yellow), Q3 (green), Q4 (grey) with different color to display different JCR quartile ranking. NA stands for not recorded in the report.
 
-<<<<<<< HEAD
-     <img src="/md_image/image-20200621180515339.png" alt="image-20200621180515339" style="zoom:50%;" />
-=======
-     ![image-20200621180515339](/md_image/image-20200621180515339.png|width=50)
->>>>>>> 4d85d71edbb6d93cabdce417454a0ce7161e64bb
+     <img src="/md_image/image-20200621180515339.png" alt="image-20200621180515339" width=50% />
 
    - CAS Block Ranking: Data from *CAS Journal Block Ranking Report (2019.12.26)*, the best journal performance in all subcategories is tagged. We use B1 (red), B2 (yellow), B3 (green), B4 (grey) with different color to display different CAS block ranking. NA stands for not recorded in the report.
 
@@ -68,11 +60,11 @@ After installing EasyPubMed, a tool bar will display below each article in the P
 
 6. Show article's information in BibTex format. You can save it or copy it to clipboard. It may take some time to fetch the Bibtex data from NCBI database. The filename of the downloaded file and the BibTex entry name is a combination of 'PMID', article PMID number, first author's last name and the publication year, like 'PMID32109013_Guan_2020'.
 
-      <img src="/md_image/image-20200622073913101.png" alt="image-20200622073913101" style="zoom:50%;" />
+      <img src="/md_image/image-20200622073913101.png" alt="image-20200622073913101" width=50% />
 
 - **Popup Page**
 
-<img src="/md_image/image-20200622120039682.png" alt="image-20200622120039682" style="zoom:50%;" />
+<img src="/md_image/image-20200622120039682.png" alt="image-20200622120039682" width=50% />
 
 Left click on the EP (EasyPubMed) chrome extension button, a popup page will appear.
 
