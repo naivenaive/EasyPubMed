@@ -1,4 +1,4 @@
-<left><img src="md_image\ep.png" width=20% style="float:left"/></left>
+<left><img src="md_image\ep.png" width=10% style="float:left"/></left>
 
 # EasyPubMed User Manual
 
@@ -51,21 +51,21 @@ After installing EasyPubMed, a tool bar will display below each article in the P
 3. Display impact factor:  Data from 2019 *Journal Citation Reports*. NA stands for not recorded in the report.
 
 4. Link to the Sci-Hub website with the corresponding article. If the article's doi is not found, the link will be disabled.
-
-   <img src="/md_image/image-20200622185138582.png" alt="image-20200622185138582" width=50% />
-
+<p align="center">
+   <img src="/md_image/image-20200622185138582.png" alt="image-20200622185138582" width=70% />
+</p>
 5. Display a full-screen PDF website without sidebar.  Analyzing the Sci-Hub link takes some time. If a full-text PDF link is found, it will be enabled and display 'PDF(Full Text)', otherwise, it will be grayed and display 'PDF(NOT FOUND)'.
-
-      <img src="/md_image/image-20200622073622374.png" alt="image-20200622073622374" width=50% />
-
+<p align="center">
+      <img src="/md_image/image-20200622073622374.png" alt="image-20200622073622374" width=70% />
+</p>
 6. Show article's information in BibTex format. You can save it or copy it to clipboard. It may take some time to fetch the Bibtex data from NCBI database. The filename of the downloaded file and the BibTex entry name is a combination of 'PMID', article PMID number, first author's last name and the publication year, like 'PMID32109013_Guan_2020'.
-
-      <img src="/md_image/image-20200622073913101.png" alt="image-20200622073913101" width=50% />
-
+<p align="center">
+      <img src="/md_image/image-20200622073913101.png" alt="image-20200622073913101" width=70% />
+</p>
 - **Popup Page**
-
-     <img src="/md_image/image-20200622120039682.png" alt="image-20200622120039682" width=30% />
-
+<p align="center">
+     <img src="/md_image/image-20200622120039682.png" alt="image-20200622120039682" width=40% />
+</p>
 Left click on the EP (EasyPubMed) chrome extension button, a popup page will appear.
 
 1. Set default Sci-Hub URL, the default is 'https://sci-hub.tw/'. A valid Sci-Hub URL should start with 'https://' or 'http://' and end with "/".
