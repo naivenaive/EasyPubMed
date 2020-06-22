@@ -4,6 +4,8 @@
 
 **EasyPubMed使新版PubMed更好用**
 
+[TOC]
+
 ## 功能特色
 
 - 专为新版PubMed设计
