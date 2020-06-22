@@ -36,7 +36,7 @@ Support web browser: Chrome, Edge
 
    - JCR Quartile Ranking: Data from 2019 *Journal Citation Reports*, the best journal performance in all subcategories (include SSCI and SCIE) is tagged. For example, if the journal get Q1 in A subcategory and Q3 in B subcategory, the journal will be labelled as Q1, the best performance. We use Q1 (red), Q2 (yellow), Q3 (green), Q4 (grey) with different color to display different JCR quartile ranking. NA stands for not recorded in the report.
 
-     ![image-20200621180515339](/md_image/image-20200621180515339.png)
+     ![image-20200621180515339](/md_image/image-20200621180515339.png)<!-- .element height="50%" width="50%" -->
 
    - CAS Block Ranking: Data from *CAS Journal Block Ranking Report (2019.12.26)*, the best journal performance in all subcategories is tagged. We use B1 (red), B2 (yellow), B3 (green), B4 (grey) with different color to display different CAS block ranking. NA stands for not recorded in the report.
 
@@ -110,7 +110,7 @@ The EasyPubMed extension is completely free despite it takes us a lot of time to
 I am a medical student and used pubmed very often. Several years ago, I found a chrome extension named Pubmedy. It helped me a lot and saved me a lot of time to find the full-text of an article. The extension is really great but it had not updated since 2018. In May 2020, the new pubmed website completely replaced the old one and Pubmedy couldn't work anymore. I found it hard to get the full text when using the new pubmed. Furthermore, I used the bibliography in BibTex a lot, however, the pubmed website did not support. So, I decided to make a new chrome extension for the new pubmed website. Though I have learnt some R and Python programming skills, as a medical student, I knew little about how to develop a chrome extension. I used the code of pubmedy as a template and learnt to write an extension using JavaScript, CSS and HTML by myself. After overcoming many obstacles, I finished this project. Hope you find it useful. If you have any suggestions, please feel free to contact me easypubmed.project@gmail.com.
 
 ## Author
-<left><img src="/md_image/image-20200622192159106.png" alt="image-20200622192159106" style="zoom:25%;" />
+<left><img src="/md_image/image-20200622192159106.png" alt="image-20200622192159106"  width=20% />
 
 ##### Tian Zhen
 
