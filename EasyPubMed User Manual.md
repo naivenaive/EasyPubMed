@@ -1,7 +1,3 @@
----
-typora-root-url: ./
----
-
 <left><img src="md_image\ep.png" style="zoom:20%;" style="float:left"/></left>
 
 # EasyPubMed User Manual
