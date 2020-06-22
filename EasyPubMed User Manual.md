@@ -1,4 +1,4 @@
-<left><img src="md_image\ep.png" style="zoom:20%;" style="float:left"/></left>
+<left><img src="md_image\ep.png" width=20% style="float:left"/></left>
 
 # EasyPubMed User Manual
 
