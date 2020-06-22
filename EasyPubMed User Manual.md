@@ -28,7 +28,7 @@ Support web browser: Chrome, Edge
 
 - **EasyPubMed Tool Bar**
 
-<center><img src="/md_image/image-20200621173353849.png" alt="image-20200621173353849" width=50% />
+<img src="/md_image/image-20200621173353849.png" alt="image-20200621173353849" width=70% align="center"/>
 
 After installing EasyPubMed, a tool bar will display below each article in the PubMed website.
 
