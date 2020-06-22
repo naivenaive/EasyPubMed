@@ -2,7 +2,7 @@
 
 # EasyPubMed User Manual
 
-EasyPubMed is a Chrome extension to make New PubMed easy to use.
+**EasyPubMed is a Chrome extension to make New PubMed easy to use.**
 
 ## Functions and Features
 
@@ -62,7 +62,9 @@ After installing EasyPubMed, a tool bar will display below each article in the P
 <p align="center">
       <img src="/md_image/image-20200622073913101.png" alt="image-20200622073913101" width=70% />
 </p>
+
 - **Popup Page**
+
 <p align="center">
      <img src="/md_image/image-20200622120039682.png" alt="image-20200622120039682" width=40% />
 </p>
@@ -87,9 +89,7 @@ We merge the data from NLM catalog, 2019 Journal Citation Reports and CAS Journa
 We use the journal's PubMed journal abbreviation as a unique identifier to obtain its impact factor, JCR quartile ranking and CAS block ranking. The following journals share the same Pubmed journal Abbreviation (I have reported the bug to NLM). Please be careful.
 
 - PubMed journal abbreviation: Front Phys
-
    - Frontiers of Physics (ISSN:2095-0462; IF:2.483; Q2; B2) 
-
    - Frontiers in Physics (ISSN: 2296-424X; IF:1.895; Q2; B3) 
 - PubMed journal abbreviation: Microbiology 
    - Microbiology (Reading, England) (ISSN: 1350-0872; IF:1.922; Q4; B4)
