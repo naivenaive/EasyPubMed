@@ -15,7 +15,7 @@
 - [Developing story](#developing-story)
 - [Author](#author)
 
-> :paperclip: No draf
+> Tips: Pressing the Ctrl key while clicking a link will automatically open the link in a new tab
 ## Functions and Features
 
 - Design for new PubMed :+1:
@@ -87,7 +87,7 @@ Support web browser: Chrome, Edge
 **Left click on the EP (EasyPubMed) chrome extension button, a popup page will appear.**
 
 1. Set default Sci-Hub URL, the default is 'https://sci-hub.tw/'. A valid Sci-Hub URL should start with 'https://' or 'http://' and end with "/".
-2. Set whether to display  JCR  quartile or CAS  block. If one is enabled, the other one will be disabled automatically. The default setting is to display JCR quartile. <a id="option"></a>
+2. <a id="option"></a>Set whether to display  JCR  quartile or CAS  block. If one is enabled, the other one will be disabled automatically. The default setting is to display JCR quartile. 
 1. Reset to default setting: Sci-Hub URL 'https://sci-hub.tw/ and display JCR  quartile.
 2. Link to PubMed website: https://pubmed.ncbi.nlm.nih.gov/
 3. Link to Sci-Hub website as you set: default is 'https://sci-hub.tw/
