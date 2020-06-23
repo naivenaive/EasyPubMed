@@ -131,7 +131,12 @@ The EasyPubMed extension and its developer take no responsibility for the data a
 ## Bug report and suggestion
 
 We are working on more exciting functions, please let us know if you have any comments and suggestions. If you find some data inaccurate, please let us know. Please feel free to contact easypubmed.project@gmail.com at any time or start a new issue in <https://github.com/naivenaive/EasyPubMed/issues>. 
-<p align="right"><a href="#top">Back to top</a></p>
+
+<p align="right">
+<a href="https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md#%E9%94%99%E8%AF%AF%E6%8A%A5%E5%91%8A%E5%8F%8A%E5%BB%BA%E8%AE%AE">查看中文版：错误报告及建议</a>
+<br>
+<a href="#top">Back to top</a>
+</p>
 
 ## Donation
 
@@ -140,12 +145,21 @@ The EasyPubMed extension is completely free despite it takes us a lot of time to
 <p align='center'>
 <left><img src="md_image/image_20200623115902.jpg" alt="image_20200623115902.jpg"  width=30% />
 </p>
-<p align="right"><a href="#top">Back to top</a></p>
+<p align="right">
+<a href="https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md#%E6%8D%90%E8%B5%A0">查看中文版：捐赠</a>
+<br>
+<a href="#top">Back to top</a>
+</p>
 
 ## Developing story
 
 I am a medical student and used pubmed very often. Several years ago, I found a chrome extension named Pubmedy. It helped me a lot and saved me a lot of time to find the full-text of an article. The extension is really great but it had not updated since 2018. In May 2020, the new pubmed website completely replaced the old one and Pubmedy couldn't work anymore. I found it hard to get the full text when using the new pubmed. Furthermore, I used the bibliography in BibTex a lot, however, the pubmed website did not support. So, I decided to make a new chrome extension for the new pubmed website. Though I have learnt some R and Python programming skills, as a medical student, I knew little about how to develop a chrome extension. I used the code of pubmedy as a template and learnt to write an extension using JavaScript, CSS and HTML by myself. After overcoming many obstacles, I finished this project. Hope you find it useful. If you have any suggestions, please feel free to contact me easypubmed.project@gmail.com.
-<p align="right"><a href="#top">Back to top</a></p>
+</p>
+<p align="right">
+<a href="https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md#%E5%BC%80%E5%8F%91%E6%95%85%E4%BA%8B">查看中文版：研发故事</a>
+<br>
+<a href="#top">Back to top</a>
+</p>
 
 ## Author
 <left><img src="md_image/image-20200622192159106.png" alt="image-20200622192159106"  width=10% />
@@ -174,4 +188,8 @@ I am a medical student and used pubmed very often. Several years ago, I found a 
 
 - Email: tianzhenwork@outlook.com
 - Zhihu: https://www.zhihu.com/people/naivenaive
-<p align="right"><a href="#top">Back to top</a></p>
+<p align="right">
+<a href="https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md#%E4%BD%9C%E8%80%85">查看中文版：作者</a>
+<br>
+<a href="#top">Back to top</a>
+</p>
