@@ -1,6 +1,5 @@
-<a id="top"></a>
 <left><img src="md_image\ep.png" width=10% style="float:left"/></left>
-
+<a id="top"></a>
 # EasyPubMed使用说明
 
 **EasyPubMed使新版PubMed更好用**
@@ -19,6 +18,9 @@
 - [作者](#作者)
 
 > 提示: 同时按住Ctrl键并单击相应的链接可在新标签页打开此链接
+
+>Go to [EasyPubMed User Manual (English)](https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%20User%20Manual.md)
+
 
 ## 功能特色
 <p align="left">

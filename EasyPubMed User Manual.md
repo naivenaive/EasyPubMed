@@ -2,8 +2,10 @@
 <a id="top"></a>
 
 # EasyPubMed User Manual
+>查看[EasyPubMed使用说明（中文版）](https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md)
 
 **EasyPubMed is a Chrome extension to make new PubMed easy to use.**
+
 - [Functions and Features](#functions-and-features)
 - [Setup](#setup)
 - [Details](#details)
