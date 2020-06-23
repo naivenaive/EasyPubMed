@@ -2,7 +2,6 @@
 <a id="top"></a>
 
 # EasyPubMed User Manual
->查看[EasyPubMed使用说明（中文版）](https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md)
 
 **EasyPubMed is a Chrome extension to make new PubMed easy to use.**
 
@@ -19,6 +18,9 @@
 - [Author](#author)
 
 > Tips: Pressing the Ctrl key while clicking a link will automatically open the link in a new tab
+
+>查看[EasyPubMed使用说明（中文版）](https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md)
+
 ## Functions and Features
 <p align="left">
 <img src="md_image/image-20200622120034563.png" alt="image-20200621173353849" width=80% >
