@@ -90,7 +90,7 @@
      <img src="md_image/image-20200622120039682.png" alt="image-20200622120039682" width=40% />
 </p>
 
-左键点击浏览器右上角深蓝色EP（EasyPubMed）按钮将会出现弹出页面，您可在此页面进行参数设置、快捷功能访问并了解EasyPubMed使用。
+**左键点击浏览器右上角深蓝色EP（EasyPubMed）按钮将会出现弹出页面，您可在此页面进行参数设置、快捷功能访问并了解EasyPubMed使用。**
 
 1. 设置默认Sci-Hub地址，默认为 'https://sci-hub.tw/'. 合法的Sci-Hub地址需由 'https://' 或 'http://' 起始并由 "/"结尾.
 2. <a id="option"></a>选择展示JCR分区或CAS分区。如果一种方法被激活，另一种分区方法将自动关闭。默认采用JCR分区。
