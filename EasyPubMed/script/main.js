@@ -441,7 +441,7 @@ function create_insert_html(pmid,bib){
     html += "<div class='ep-impactfactor-container' id="+pmid+">\
             "
     html += "<dd style='margin-left:30px'>\
-                <a style='color:#20558a !important;margin-top: 7.5px' title='Easy Pubmed' href='https://www.github.com'>\
+                <a style='color:#20558a !important;margin-top: 7.5px' title='Easy Pubmed' href='https://github.com/naivenaive/EasyPubMed'>\
                 <img src='"+chrome.extension.getURL("images/ep_25.png")+"'></a>\
             </dd>";
     switch (bib["q"]){
