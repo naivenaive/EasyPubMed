@@ -19,7 +19,7 @@
 > Tips: Pressing the Ctrl key while clicking a link will automatically open the link in a new tab
 ## Functions and Features
 <p align="center">
-<img src="md_image/image-20200622120034563.png" alt="image-20200621173353849" width=100% >
+<img src="md_image/image-20200622120034563.png" alt="image-20200621173353849" width=50% >
 </p>
 
 - EasyPubMed tool bar, Design for new PubMed

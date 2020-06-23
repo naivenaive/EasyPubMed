@@ -21,7 +21,7 @@
 
 ## 功能特色
 <p align="center">
-<img src="md_image/image-20200622120034563.png" alt="image-20200621173353849" width=100% >
+<img src="md_image/image-20200622120034563.png" alt="image-20200621173353849" width=50% >
 </p>
 
 - 特色工具条，专为新版PubMed设计
@@ -148,6 +148,7 @@ EasyPubMed是完全免费的。此扩展开发过程需要耗费很大的时间�
 
 作为一名医学生，我对于编程仅限于用R、Python进行数据处理，我完全不了解如何编写这样的插件。在我下定决心后，我开始自学 JavaScript，CSS及 HTML前端开发知识。以原Pubmedy插件作为老师，结合自学内容在克服了重重困难后成功制作了该插件。它的性能稳定，加载速度很快。希望您能觉得此插件有用。当然，由于水平有限，制作过程中难免会出现一些bug，希望您可以将您的体验及所发现的错误报告给我easypubmed.project@gmail.com，我将非常感激。
 <p align="right"><a href="#top">回到顶部</a></p>
+
 ## 作者
 <left><img src="md_image/image-20200622192159106.png" alt="image-20200622192159106"  width=10% />
 
