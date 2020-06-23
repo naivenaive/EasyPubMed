@@ -1,10 +1,9 @@
 <img src="md_image\ep.png" width=10% style="float:left"/>
 <a id="top"></a>
-<br/><br/>
 
 # EasyPubMed User Manual
 
-**EasyPubMed is a Chrome extension to make New PubMed easy to use.**
+**EasyPubMed is a Chrome extension to make new PubMed easy to use.**
 - [Functions and Features](#functions-and-features)
 - [Setup](#setup)
 - [Details](#details)
