@@ -37,14 +37,22 @@
 - Display JCR (Journal Citation Reports) journal's quartile ranking or CAS (Chinese Academy of Sciences) journal's block ranking
 
 - BibTex support
-<p align="right"><a href="#top">Back to top</a></p>
+<p align="right">
+<a href="https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md#%E5%8A%9F%E8%83%BD%E7%89%B9%E8%89%B2">查看中文版：功能特色</a>
+<br>
+<a href="#top">Back to top</a>
+</p>
 
 ## Setup
 
 Support web browser: Chrome, Edge
 
 1. Download the extension: [EasyPubMed](h)
-<p align="right"><a href="#top">Back to top</a></p>
+<p align="right">
+<a href="https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md#%E5%AE%89%E8%A3%85">查看中文版：安装</a>
+<br>
+<a href="#top">Back to top</a>
+</p>
 
 ## Details
 
@@ -107,7 +115,11 @@ Support web browser: Chrome, Edge
 7. Link to a website where you can donate to EasyPubMed
 8.  Link to a website where you can learn more about EasyPubMed developing story and author
 9.  EasyPubMed edition and author
-<p align="right"><a href="#top">Back to top</a></p>
+<p align="right">
+<a href="https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md#%E5%8A%9F%E8%83%BD%E5%B1%95%E7%A4%BA">查看中文版：功能展示</a>
+<br>
+<a href="#top">Back to top</a>
+</p>
 
 ## Data Source
 
@@ -121,12 +133,20 @@ We use the journal's PubMed journal abbreviation as a unique identifier to obtai
 - PubMed journal abbreviation: Microbiology 
    - Microbiology (Reading, England) (ISSN: 1350-0872; IF:1.922; Q4; B4)
    - Microbiology (ISSN: 0026-2617; IF:1.027; Q4; B4)
-<p align="right"><a href="#top">Back to top</a></p>
+<p align="right">
+<a href="https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md#%E6%95%B0%E6%8D%AE%E6%9D%A5%E6%BA%90">查看中文版：数据来源</a>
+<br>
+<a href="#top">Back to top</a>
+</p>
 
 ## Disclaimer
 
 The EasyPubMed extension and its developer take no responsibility for the data accuracy (including  JCR impact factor, JCR journal's quartile ranking, CAS journal's block ranking, article's information in BibTex format) and the origin of full-text article from Sci-Hub website. If you want to get the JCR impact factor or JCR journal's quartile, you should go to the JCR official website: https://jcr.clarivate.com/. If you want to get the CAS Journal Block Ranking, you should go to the following website: http://www.fenqubiao.com/.
-<p align="right"><a href="#top">Back to top</a></p>
+<p align="right">
+<a href="https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md#%E5%A3%B0%E6%98%8E">查看中文版：声明</a>
+<br>
+<a href="#top">Back to top</a>
+</p>
 
 ## Bug report and suggestion
 

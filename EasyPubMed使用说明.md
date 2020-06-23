@@ -38,14 +38,22 @@
 - 显示杂志JCR分区或中科院分区
 
 - 一键获取BibTex格式文献信息
-<p align="right"><a href="#top">回到顶部</a></p>
+<p align="right">
+<a href="https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%20User%20Manual.md#functions-and-features">English version: Functions and Features</a>
+<br>
+<a href="#top">回到顶部</a>
+</p>
 
 ## 安装
 
 浏览器支持: Chrome, Edge
 
 1. 下载扩展插件: [EasyPubMed](h)
-<p align="right"><a href="#top">回到顶部</a></p>
+<p align="right">
+<a href="https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%20User%20Manual.md#setup">English version: Setup</a>
+<br>
+<a href="#top">回到顶部</a>
+</p>
 
 ## 功能展示
 
@@ -106,7 +114,11 @@
 9. 链接到捐助页面
 10. 了解扩展开发故事及作者
 11. EasyPubMed版本号及作者信息
-<p align="right"><a href="#top">回到顶部</a></p>
+<p align="right">
+<a href="https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%20User%20Manual.md#details">English version: Details</a>
+<br>
+<a href="#top">回到顶部</a>
+</p>
 
 ## 数据来源
 
@@ -120,18 +132,30 @@
 - Pubmed杂志缩写: Microbiology 
    - Microbiology (Reading, England) (ISSN: 1350-0872; IF:1.922; Q4; B4)
    - Microbiology (ISSN: 0026-2617; IF:1.027; Q4; B4)
-<p align="right"><a href="#top">回到顶部</a></p>
+<p align="right">
+<a href="https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%20User%20Manual.md#data-source">English version: Data source</a>
+<br>
+<a href="#top">回到顶部</a>
+</p>
 
 ## 声明
 
 EasyPubMed及其作者不对此扩展所提供数据（包括JCR杂志影响因子、杂志JCR分区、杂志CAS分区、文章BibTex信息）准确性及 Sci-Hub全文数据来源及准确性负责。如果您希望获取JCR影响因子、杂志JCR分区，请访问JCR官方网站: https://jcr.clarivate.com/. 如果您希望获取中科院（CAS）文献情报分区，请访问: http://www.fenqubiao.com/.
-<p align="right"><a href="#top">回到顶部</a></p>
+<p align="right">
+<a href="https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%20User%20Manual.md#disclaimer">English version: Data source</a>
+<br>
+<a href="#top">回到顶部</a>
+</p>
 
 ## 错误报告及建议
 
 我们正在为此扩展增添更多功能，如果您有想法或建议请告知我们。如果您发现数据错误请告知我们。您可以通过发送邮件到<easypubmed.project@gmail.com>或在<https://github.com/naivenaive/EasyPubMed/issues>中发起新提议以将错误信息报告给我们。非常希望得到您的反馈。
 
-<p align="right"><a href="#top">回到顶部</a></p>
+<p align="right">
+<a href="https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%20User%20Manual.md#bug-report-and-suggestion">English version: Data source</a>
+<br>
+<a href="#top">回到顶部</a>
+</p>
 
 
 
@@ -143,14 +167,22 @@ EasyPubMed是完全免费的。此扩展开发过程需要耗费很大的时间�
 <left><img src="md_image/image_20200623115902.jpg" alt="image_20200623115902.jpg"  width=30% />
 </p>
 
-<p align="right"><a href="#top">回到顶部</a></p>
+<p align="right">
+<a href="https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%20User%20Manual.md#donation">English version: Donation</a>
+<br>
+<a href="#top">回到顶部</a>
+</p>
 
 ## 开发故事
 
 我是一名医学生，经常使用Pubmed查阅文献。几年前，我发现了名为Pubmedy的扩展插件。该插件帮助我节省了大量查阅全文的时间。尽管此插件非常好用，但是2018年就停止更新了。2020年5月Pubmed停止了对旧版本的支持并以新版本替代，自此Pubmedy插件再也不能使用。在使用新版本Pubmed过程中，没有此插件的帮助我感觉很不适应。此外，我经常需要用到BibTex格式的文件，而Pubmed并不直接提供此种格式的下载。因此，我决定制作一个为新版Pubmed设计的新插件。
 
 作为一名医学生，我对于编程仅限于用R、Python进行数据处理，我完全不了解如何编写这样的插件。在我下定决心后，我开始自学 JavaScript，CSS及 HTML前端开发知识。以原Pubmedy插件作为老师，结合自学内容在克服了重重困难后成功制作了该插件。它的性能稳定，加载速度很快。希望您能觉得此插件有用。当然，由于水平有限，制作过程中难免会出现一些bug，希望您可以将您的体验及所发现的错误报告给我easypubmed.project@gmail.com，我将非常感激。
-<p align="right"><a href="#top">回到顶部</a></p>
+<p align="right">
+<a href="https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%20User%20Manual.md#developing-story">English version: Developing story</a>
+<br>
+<a href="#top">回到顶部</a>
+</p>
 
 ## 作者
 <left><img src="md_image/image-20200622192159106.png" alt="image-20200622192159106"  width=10% />
@@ -179,4 +211,9 @@ EasyPubMed是完全免费的。此扩展开发过程需要耗费很大的时间�
 
 - Email: tianzhenwork@outlook.com
 - 知乎: https://www.zhihu.com/people/naivenaive
-<p align="right"><a href="#top">回到顶部</a></p>
+
+<p align="right">
+<a href="https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%20User%20Manual.md#author">English version: Author</a>
+<br>
+<a href="#top">回到顶部</a>
+</p>
