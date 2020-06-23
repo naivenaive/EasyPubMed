@@ -3,12 +3,27 @@
 
 # EasyPubMed
 **EasyPubMed使新版PubMed更好用**
-- [EasyPubMed使用说明(中文版)](https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md#%E6%95%B0%E6%8D%AE%E6%9D%A5%E6%BA%90)
+
+[**EasyPubMed使用说明(中文版)**](https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md#%E6%95%B0%E6%8D%AE%E6%9D%A5%E6%BA%90)
 
 **EasyPubMed is a Chrome extension to make New PubMed easy to use**
 
 
-- [EasyPubMed User Manual(English)](https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%20User%20Manual.md)
+ [**EasyPubMed User Manual(English)**](https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%20User%20Manual.md)
+
+-------
+
+- [功能特色](#功能特色)
+- [安装](#安装)
+- [功能展示](#功能展示)
+  - [EasyPubMed工具条](#easypubmed工具条)
+  - [弹出页面](#弹出页面)
+- [数据来源](#数据来源)
+- [声明](#声明)
+- [错误报告及建议](#错误报告及建议)
+- [捐赠](#捐赠)
+- [开发故事](#开发故事)
+- [作者](#作者)
 
 ## 功能特色
 <p align="left">
