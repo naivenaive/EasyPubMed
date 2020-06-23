@@ -202,7 +202,7 @@ I am a medical student and used pubmed very often. Several years ago, I found a 
 - Medical statistics, bioinformatics, handle medical data using R or Python
 - Chrome extension develop using JavaScript, CSS and HTML 
 
-**If you have the same interest, need help in my interest field or have some temporary project like translating  medical material to Chinese, please feel free to contact me.**
+> **If you have the same interest, need help in my interest field or have some temporary project like translating  medical material to Chinese, please feel free to contact me.**
 
 **Contact**
 
