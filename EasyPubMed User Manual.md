@@ -1,4 +1,4 @@
-<img src="md_image\ep.png" width=20% style="float:left"/>
+<img src="md_image\ep.png" width=10% style="float:left"/>
 
 # EasyPubMed User Manual
 
@@ -18,7 +18,7 @@
 > Tips: Pressing the Ctrl key while clicking a link will automatically open the link in a new tab
 ## Functions and Features
 
-- Design for new PubMed :+1:
+- Design for new PubMed
 
 - Rapid loading: use local database, average loading time <0.1s
   
