@@ -1,15 +1,27 @@
-<left><img src="md_image\ep.png" width=10% style="float:left"/></left>
+<img src="md_image\ep.png" width=20% style="float:left"/>
 
 # EasyPubMed User Manual
 
 **EasyPubMed is a Chrome extension to make New PubMed easy to use.**
+- [Functions and Features](#functions-and-features)
+- [Setup](#setup)
+- [Details](#details)
+  - [EasyPubMed Tool Bar](#easypubmed-tool-bar)
+  - [Popup Page](#popup-page)
+- [Data Source](#data-source)
+- [Disclaimer](#disclaimer)
+- [Bug report and suggestion](#bug-report-and-suggestion)
+- [Donation](#donation)
+- [Developing story](#developing-story)
+- [Author](#author)
 
+> :paperclip: No draf
 ## Functions and Features
 
-- Design for new PubMed
+- Design for new PubMed :+1:
 
 - Rapid loading: use local database, average loading time <0.1s
-
+  
 - One click to get full-screen paper PDF without sidebar from Sci-Hub
 
 - Display journal impact factor (IF) 
@@ -26,15 +38,16 @@ Support web browser: Chrome, Edge
 
 ## Details
 
-- **EasyPubMed Tool Bar**
+### EasyPubMed Tool Bar
 <p align="center">
 <img src="md_image/image-20200621173353849.png" alt="image-20200621173353849" width=70% >
 </p>
-After installing EasyPubMed, a tool bar will display below each article in the PubMed website.
+
+**After installing EasyPubMed, a tool bar will display below each article in the PubMed website.**
 
 1. EasyPubMed Icon: Link to EasyPubMed  homepage in Github
 
-2. Display  JCR (Journal Citation Reports) journal's quartile ranking or CAS (Chinese Academy of Sciences) journal's block ranking  as you set in popup page
+2. Display  JCR (Journal Citation Reports) journal's quartile ranking or CAS (Chinese Academy of Sciences) journal's block ranking  as you set in [popup page](#option)
 
    - JCR Quartile Ranking: Data from 2019 *Journal Citation Reports*, the best journal performance in all subcategories (include SSCI and SCIE) is tagged. For example, if the journal get Q1 in A subcategory and Q3 in B subcategory, the journal will be labelled as Q1, the best performance. We use Q1 (red), Q2 (yellow), Q3 (green), Q4 (grey) with different color to display different JCR quartile ranking. NA stands for not recorded in the report.
 
@@ -65,25 +78,25 @@ After installing EasyPubMed, a tool bar will display below each article in the P
       <img src="md_image/image-20200622073913101.png" alt="image-20200622073913101" width=70% />
 </p>
 
-- **Popup Page**
+### Popup Page
 
 <p align="center">
      <img src="md_image/image-20200622120039682.png" alt="image-20200622120039682" width=40% />
 </p>
 
-Left click on the EP (EasyPubMed) chrome extension button, a popup page will appear.
+**Left click on the EP (EasyPubMed) chrome extension button, a popup page will appear.**
 
 1. Set default Sci-Hub URL, the default is 'https://sci-hub.tw/'. A valid Sci-Hub URL should start with 'https://' or 'http://' and end with "/".
-2. Set whether to display  JCR  quartile or CAS  block. If one is enabled, the other one will be disabled automatically. The default setting is to display JCR quartile.
-3. Reset to default setting: Sci-Hub URL 'https://sci-hub.tw/ and display JCR  quartile.
-4. Link to PubMed website: https://pubmed.ncbi.nlm.nih.gov/
-5. Link to Sci-Hub website as you set: default is 'https://sci-hub.tw/
-6. Search the Sci-Hub website. You can input PMID, DOI,article title or any string you want, the same as you input in the Sci-Hub website.
-7. Link to EasyPubMed User manual
-8. Link to a website where you can report bugs or requests to EasyPubMed
-9. Link to a website where you can donate to EasyPubMed
-10. Link to a website where you can learn more about EasyPubMed developing story and author
-11. EasyPubMed edition and author
+2. Set whether to display  JCR  quartile or CAS  block. If one is enabled, the other one will be disabled automatically. The default setting is to display JCR quartile. <a id="option"></a>
+1. Reset to default setting: Sci-Hub URL 'https://sci-hub.tw/ and display JCR  quartile.
+2. Link to PubMed website: https://pubmed.ncbi.nlm.nih.gov/
+3. Link to Sci-Hub website as you set: default is 'https://sci-hub.tw/
+4. Search the Sci-Hub website. You can input PMID, DOI,article title or any string you want, the same as you input in the Sci-Hub website.
+5. Link to EasyPubMed User manual
+6. Link to a website where you can report bugs or requests to EasyPubMed
+7. Link to a website where you can donate to EasyPubMed
+8.  Link to a website where you can learn more about EasyPubMed developing story and author
+9.  EasyPubMed edition and author
 
 ## Data Source
 
@@ -104,7 +117,7 @@ The EasyPubMed extension and its developer take no responsibility for the data a
 
 ## Bug report and suggestion
 
-We are working on more exciting functions, please let us know if you have any comments and suggestions. If you find some data inaccurate, please let us know. Please feel free to contact easypubmed.project@gmail.com at any time or start a new issue in https://github.com/naivenaive/EasyPubMed/issues. 
+We are working on more exciting functions, please let us know if you have any comments and suggestions. If you find some data inaccurate, please let us know. Please feel free to contact easypubmed.project@gmail.com at any time or start a new issue in <https://github.com/naivenaive/EasyPubMed/issues>. 
 
 ## Donation
 
@@ -117,9 +130,9 @@ I am a medical student and used pubmed very often. Several years ago, I found a 
 ## Author
 <left><img src="md_image/image-20200622192159106.png" alt="image-20200622192159106"  width=20% />
 
-##### Tian Zhen
+**Tian Zhen**
 
-##### Education:
+**Education**
 
 - 2010-2015, Shanghai Jiao Tong University, School of Medicine. Bachelor degree of medicine
 
@@ -127,7 +140,7 @@ I am a medical student and used pubmed very often. Several years ago, I found a 
 
 - 2018-now, Freelance, wait for chance and a miracle. God bless me.
 
-##### Interest: 
+**Interest**
 
 - Have a chat about the meaning of life
 - Dermatology (Psoriasis, Acne...), cosmetic dermatology (Cosmetics, Laser...)
@@ -135,9 +148,9 @@ I am a medical student and used pubmed very often. Several years ago, I found a 
 - Medical statistics, bioinformatics, handle medical data using R or Python
 - Chrome extension develop using JavaScript, CSS and HTML 
 
-If you have the same interest, need help in my interest field or have some temporary project like translating  medical material to Chinese, please feel free to contact me.
+**If you have the same interest, need help in my interest field or have some temporary project like translating  medical material to Chinese, please feel free to contact me.**
 
-##### Contact:
+**Contact**
 
 - Email: tianzhenwork@outlook.com
 - Zhihu: https://www.zhihu.com/people/naivenaive
