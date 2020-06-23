@@ -2,9 +2,8 @@
     "name": "EasyPubMed",
     "manifest_version": 2,
     "version": "0.0.1",
-    "description": "Show CAS Journal Quantile, Imapct Factor(IF) on PubMed, full-text download and get Bibtex citation",
+    "description": "Show Imapct Factor(IF), JCR quartile, CAS block on PubMed, full-text download and article information in Bibtex",
     "short_name": "EP",
-    "update_url": "https://clients2.google.com/service/update2/crx",
     "icons": {
         "16": "images/ep_16.png",
         "48": "images/ep_48.png",
