@@ -51,7 +51,7 @@
 
 目前使用者可以采用开发者模式安装试用，欢迎[反馈](#错误报告及建议)
 
-1. 下载扩展插件: 点击此链接[EasyPubMed](https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed.zip)，点击download按钮下载EasyPubMed.zip文件（154KB）
+1. 下载扩展插件: 点击此链接[EasyPubMed](https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed.zip)，点击download按钮下载EasyPubMed.zip文件（154KB）。有时国内访问Github会出现错误，您也可以通过百度网盘链接：https://pan.baidu.com/s/1tolnJpgL9_JsnmFn3CmmOA （提取码：duxe）获取。
 2. 解压缩EasyPubMed.zip文件（选择‘解压到当前文件夹’即可）生成EasyPubMed文件夹
 3. 打开chrome或edge浏览器，在导航栏输入chrome://extensions（Chrome浏览器）或edge://extensions（Edge浏览器），确保开发者模式打开，点击‘加载解压缩的扩展’按钮，选择EasyPubMed文件夹即可加载成功。
 
