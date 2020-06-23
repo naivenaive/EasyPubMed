@@ -47,7 +47,8 @@
 
 Support web browser: Chrome, Edge
 
-1. Download the extension: [EasyPubMed](h)
+Waiting for Chrome and Edge extension webstore to review. Coming soon.
+
 <p align="right">
 <a href="https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md#%E5%AE%89%E8%A3%85">查看中文版：安装</a>
 <br>

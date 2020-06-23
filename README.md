@@ -51,8 +51,13 @@
 ## 安装
 
 浏览器支持: Chrome, Edge
+目前版本为测试版本，功能已经大部分开发完毕。目前尚未上线Google及Edge应用商店，但已提交，正在审查中（2020.6.23）
 
-1. 下载扩展插件: [EasyPubMed](h)
+目前使用者可以采用开发者模式安装试用，欢迎[反馈](#错误报告及建议)
+
+1. 下载扩展插件: 点击此链接[EasyPubMed](https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed.zip)，点击download按钮下载EasyPubMed.zip文件（154KB）
+2. 解压缩EasyPubMed.zip文件（选择‘解压到当前文件夹’即可）生成EasyPubMed文件夹
+3. 打开chrome或edge浏览器，在导航栏输入chrome://extensions（Chrome浏览器）或edge://extensions（Edge浏览器），确保开发者模式打开，点击‘加载解压缩的扩展’按钮，选择EasyPubMed文件夹即可加载成功。
 <p align="right">
 <a href="https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%20User%20Manual.md#setup">English version: Setup</a>
 <br>
