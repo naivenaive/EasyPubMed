@@ -1,5 +1,6 @@
-<a id="top"></a>
 <img src="md_image\ep.png" width=10% style="float:left"/>
+<a id="top"></a>
+<br/><br/>
 
 # EasyPubMed User Manual
 
