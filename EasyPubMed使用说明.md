@@ -20,8 +20,8 @@
 > 提示: 同时按住Ctrl键并单击相应的链接可在新标签页打开此链接
 
 ## 功能特色
-<p align="center">
-<img src="md_image/image-20200622120034563.png" alt="image-20200621173353849" width=50% >
+<p align="left">
+<img src="md_image/image-20200622120034563.png" alt="image-20200621173353849" width=80% >
 </p>
 
 - 特色工具条，专为新版PubMed设计
