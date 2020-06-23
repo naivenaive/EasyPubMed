@@ -1,4 +1,5 @@
 <img src="md_image\ep.png" width=10% style="float:left"/>
+<a id="top"></a>
 
 # EasyPubMed User Manual
 
@@ -17,8 +18,11 @@
 
 > Tips: Pressing the Ctrl key while clicking a link will automatically open the link in a new tab
 ## Functions and Features
+<p align="center">
+<img src="md_image/image-20200622120034563.png" alt="image-20200621173353849" width=100% >
+</p>
 
-- Design for new PubMed
+- EasyPubMed tool bar, Design for new PubMed
 
 - Rapid loading: use local database, average loading time <0.1s
   
@@ -29,12 +33,14 @@
 - Display JCR (Journal Citation Reports) journal's quartile ranking or CAS (Chinese Academy of Sciences) journal's block ranking
 
 - BibTex support
+<p align="right"><a href="#top">Back to top</a></p>
 
 ## Setup
 
 Support web browser: Chrome, Edge
 
 1. Download the extension: [EasyPubMed](h)
+<p align="right"><a href="#top">Back to top</a></p>
 
 ## Details
 
@@ -97,6 +103,7 @@ Support web browser: Chrome, Edge
 7. Link to a website where you can donate to EasyPubMed
 8.  Link to a website where you can learn more about EasyPubMed developing story and author
 9.  EasyPubMed edition and author
+<p align="right"><a href="#top">Back to top</a></p>
 
 ## Data Source
 
@@ -110,40 +117,49 @@ We use the journal's PubMed journal abbreviation as a unique identifier to obtai
 - PubMed journal abbreviation: Microbiology 
    - Microbiology (Reading, England) (ISSN: 1350-0872; IF:1.922; Q4; B4)
    - Microbiology (ISSN: 0026-2617; IF:1.027; Q4; B4)
+<p align="right"><a href="#top">Back to top</a></p>
 
 ## Disclaimer
 
 The EasyPubMed extension and its developer take no responsibility for the data accuracy (including  JCR impact factor, JCR journal's quartile ranking, CAS journal's block ranking, article's information in BibTex format) and the origin of full-text article from Sci-Hub website. If you want to get the JCR impact factor or JCR journal's quartile, you should go to the JCR official website: https://jcr.clarivate.com/. If you want to get the CAS Journal Block Ranking, you should go to the following website: http://www.fenqubiao.com/.
+<p align="right"><a href="#top">Back to top</a></p>
 
 ## Bug report and suggestion
 
 We are working on more exciting functions, please let us know if you have any comments and suggestions. If you find some data inaccurate, please let us know. Please feel free to contact easypubmed.project@gmail.com at any time or start a new issue in <https://github.com/naivenaive/EasyPubMed/issues>. 
+<p align="right"><a href="#top">Back to top</a></p>
 
 ## Donation
 
-The EasyPubMed extension is completely free despite it takes us a lot of time to develop the extension. If you find it useful,  will you consider supporting us a cup of coffee($5), a box of snacks($10) or a good lunch($20)? We will feel great encouraged and energetic.
+The EasyPubMed extension is completely free despite it takes us a lot of time to develop the extension. If you find it useful,  will you consider supporting us a cup of coffee($5), a box of snacks($10) or a good lunch($20)? We will feel great encouraged.
+
+<p align='center'>
+<left><img src="md_image/image_20200623115902.jpg" alt="image_20200623115902.jpg"  width=30% />
+</p>
+<p align="right"><a href="#top">Back to top</a></p>
 
 ## Developing story
 
 I am a medical student and used pubmed very often. Several years ago, I found a chrome extension named Pubmedy. It helped me a lot and saved me a lot of time to find the full-text of an article. The extension is really great but it had not updated since 2018. In May 2020, the new pubmed website completely replaced the old one and Pubmedy couldn't work anymore. I found it hard to get the full text when using the new pubmed. Furthermore, I used the bibliography in BibTex a lot, however, the pubmed website did not support. So, I decided to make a new chrome extension for the new pubmed website. Though I have learnt some R and Python programming skills, as a medical student, I knew little about how to develop a chrome extension. I used the code of pubmedy as a template and learnt to write an extension using JavaScript, CSS and HTML by myself. After overcoming many obstacles, I finished this project. Hope you find it useful. If you have any suggestions, please feel free to contact me easypubmed.project@gmail.com.
+<p align="right"><a href="#top">Back to top</a></p>
 
 ## Author
-<left><img src="md_image/image-20200622192159106.png" alt="image-20200622192159106"  width=20% />
+<left><img src="md_image/image-20200622192159106.png" alt="image-20200622192159106"  width=10% />
 
 **Tian Zhen**
 
-**Education**
+**Experience**
 
 - 2010-2015, Shanghai Jiao Tong University, School of Medicine. Bachelor degree of medicine
 
-- 2015-2018, Shanghai *Medical College* of *Fudan* University, Master degree of dermatology.  Residency training in Huashan Hospital, department of dermatology. 
+- 2015-2018, Shanghai Medical College of Fudan University, Master degree of dermatology. Residency training in Huashan Hospital, department of dermatology. 
 
 - 2018-now, Freelance, wait for chance and a miracle. God bless me.
 
 **Interest**
 
 - Have a chat about the meaning of life
-- Dermatology (Psoriasis, Acne...), cosmetic dermatology (Cosmetics, Laser...)
+- Dermatology (Psoriasis, Acne, alopecia, etc.), cosmetic dermatology (Cosmetics, Laser,etc.)
 - Popularization of science
 - Medical statistics, bioinformatics, handle medical data using R or Python
 - Chrome extension develop using JavaScript, CSS and HTML 
@@ -154,3 +170,4 @@ I am a medical student and used pubmed very often. Several years ago, I found a 
 
 - Email: tianzhenwork@outlook.com
 - Zhihu: https://www.zhihu.com/people/naivenaive
+<p align="right"><a href="#top">Back to top</a></p>
