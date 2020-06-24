@@ -41,9 +41,8 @@
     ],
     "permissions": [
         "webRequest",
-        "tabs",
-        "contextMenus",
         "storage",
-        "<all_urls>"
+        "https://eutils.ncbi.nlm.nih.gov/entrez/*",
+         "*://sci-hub.tw/", "*://sci-hub.st/", "*://sci-hub.se/", "*://sci-hub.ee/"
     ]
 }
