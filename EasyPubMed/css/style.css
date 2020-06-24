@@ -15,25 +15,7 @@
 	border-radius: 0.5rem;
 	/* padding: 4px 30px 2px 30px; */
 }
-/* .ep-impactfactor-container img{
-	width: 14px;
-}
-.ep-impactfactor-container a{
-	text-decoration: none;
-	color:#20558a;
-}
-.ep-rtn-citation{
-	/*padding: 0 10px 0 20px;*/
-    /* font-size: 14px;
-}
-.ep-highlight {
-    background: #e3e4dd  !important;
-    border: 1px solid #eee;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    padding: 5px  !important;
-} */ */
+
 .ep-impactfactor-container dl{
     margin-block: 0px;
 	height: 28px; 
@@ -44,9 +26,7 @@
     border-top: none;
     border-bottom: none;
 }
-/* .ep-impactfactor-container dt, .ep-impactfactor-container dd{
-	float: right;
-} */
+
 .ep-impactfactor-container dt{
     float: left;
     width:auto;
@@ -92,27 +72,7 @@
     cursor: pointer;
 }
 
-/* modal */
-/*.bibtex-button {
-    float: inline-end;
-    height:30px;
-    line-height: 5px;
-    text-align: center;
-    cursor: pointer;
-    border-radius: 0;
-	background-color: #f3f9d2;
-	color: #20558a;
-	font-size: 15px;
-	font-weight: 600;
-	outline: none;
-    border: none;
-    margin: 0 0 0 0;
-}
 
-.bibtex-button:hover {
-	background-color: #f3f9d2;
-	color: #4c2c92;
-}*/
 .modal {
     position: fixed;
     left: 0;

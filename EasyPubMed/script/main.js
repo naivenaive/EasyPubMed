@@ -1,39 +1,8 @@
 
-//2515-4184
-// var pmids=[]
-// var bibs={}
-// var modal
-// var bibtexButton 
-// var closeButton 
-// var downloadButton 
-// var copyButton 
-// var scihub_url 
-// var q_cat 
-
-// chrome.storage.local.get(['scihub_url'], function(result) {
-//     scihub_url=result
-// });
-// chrome.storage.local.get(['q_cat'], function(result) {
-//     q_cat=result
-// });
-// var q_cat
-// chrome.runtime.sendMessage({command: 'getItem', name: 'q_cat'},function(response){
-//     q_cat=response
-// })
-// console.log('aaaaa',q_cat)
-
-// console.log("start")
-
-// const jcr_sci_url = chrome.runtime.getURL('data/jcr_sci.xml')
 const modal_url = chrome.runtime.getURL('script/modal.js')
 const style_url = chrome.runtime.getURL('css/style.css')
 const jcr_sci_url = chrome.runtime.getURL('data/imfqb_pubmed_abbv.json')
 
-// const jcr_sci_url="http://localhost:5500/data/jcr_sci.xml"
-// var jcr_sci = get_jcr_sci()
-// console.log(jcr_sci_url,modal_url,style_url)
-
-// console.log('teeee',localStorage['q_cat'],localStorage['scihub_url'])
 var pmids=[]
 var bibs={}
 var modal
@@ -45,16 +14,6 @@ var copyButton
 getItem('q_cat')
 getItem('scihub_url')
 main()
-
-// chrome.runtime.sendMessage({ command: 'getItems', names: ['q_cat','scihub_url'] }, function(response) {
-//         console.log(response);
-//         for (var key in response){
-//             window.localStorage[key] = response[key];
-//         }
-//         main()
-//     });
-
-console.log("end")
 
 function main(){
     if(location.hostname=='pubmed.ncbi.nlm.nih.gov'){
@@ -72,7 +31,6 @@ function main(){
             retry(() => get_pubmedxml(pmids)).then(
                 function(pubmedxmls){
                     bibs = core_analyse_pubmed(bibs,pubmedxmls)
-                    console.log("bibs",bibs)
                     $("p[id="+pmid+"]").text(bibs[pmid]["bibtex"]);
                     $(".bibtex-button[id="+pmid+"]").text("View BibTex").css('color','#20558a').css('cursor','pointer')
                     renew_listener()
@@ -81,7 +39,6 @@ function main(){
                 $(".bibtex-button[id="+pmid+"]").text("Failed to get BibTex")
             })
             
-            //analyse_scihub(pmids[0])
                     
         }
         if (location.href.match(/https:\/\/pubmed.ncbi.nlm.nih.gov\/\?term=/)){
@@ -100,21 +57,18 @@ function main(){
                 bibs[pmids[i]]= {"Journal_get":journals[i],"search_page":search_page,"doi_get":dois[i],"pos":i+1}
             }
             bibs = core_analyse_imfq(bibs)
-            console.log(search_page,bibs)
 
             for (var i=0; i<pmids.length; i++){
                 let insert_html = create_insert_html(pmids[i],bibs[pmids[i]])
                 let pmid=pmids[i]
                 $(".search-results-chunk[data-page-number="+bibs[pmid]["search_page"]+"] article[data-rel-pos="+bibs[pmid]["pos"]+"]").append(insert_html);
             }
-            // console.log("insert_time",Date.now()-start)
 
             get_scihub_pdf(pmids,bibs)
 
             retry(() => get_pubmedxml(pmids)).then(
                 function(pubmedxmls){
                     bibs = core_analyse_pubmed(bibs,pubmedxmls)
-                    console.log("bibs",bibs)
                     for (var i=0; i<pmids.length; i++){
                         let pmid=pmids[i]
                         $("p[id="+pmid+"]").text(bibs[pmid]["bibtex"]);
@@ -128,10 +82,8 @@ function main(){
                     $(".bibtex-button[id="+pmid+"]").text("Failed to get BibTex")
                 }
             })
-            // console.log("first load 2",Date.now()-start)
 
             var mo=new MutationObserver(function(mutations){
-                // console.log(1,mutations)
                 mutations.forEach(mo_callback)
             })
             mo.observe(document.body.getElementsByClassName("search-results-chunks")[0],{childList:true})
@@ -141,14 +93,12 @@ function main(){
 
 function getItems(names){
     chrome.runtime.sendMessage({ command: 'getItems', name: names }, function(response) {
-        // console.log(response);
         window.localStorage[name] = response;
     });
 }
 
 function getItem(name) {
     chrome.runtime.sendMessage({ command: 'getItem', name: name }, function(response) {
-        // console.log(response);
         window.localStorage[name] = response;
     });
 }
@@ -176,14 +126,12 @@ function mo_callback(mutation){
 
     new_bibs = core_analyse_imfq(new_bibs)
 
-    // console.log(search_page,new_bibs)
 
     for (var i=0; i<new_pmids.length; i++){
         let insert_html = create_insert_html(new_pmids[i],new_bibs[new_pmids[i]])
         let pmid=new_pmids[i]
         $(".search-results-chunk[data-page-number="+new_bibs[pmid]["search_page"]+"] article[data-rel-pos="+new_bibs[pmid]["pos"]+"]").append(insert_html);
     }
-    // console.log("callback",Date.now()-start)
 
     get_scihub_pdf(new_pmids,new_bibs)
 
@@ -204,7 +152,6 @@ function mo_callback(mutation){
                 $(".bibtex-button[id="+pmid+"]").text("Failed to get BibTex")
         }
     })
-    // console.log("callback",Date.now()-start)
 }
 
 function renew_listener(){
@@ -230,7 +177,6 @@ function get_scihub_pdf(pmids,bibs){
         if (bibs[pmids[i]]["doi_get"]!=""){
             chrome.runtime.sendMessage({command:'analyse_scihub', pmid:pmids[i], doi:bibs[pmids[i]]["doi_get"]},
             function(response){
-                // console.log(response)
                 if (response.pdf_url!=""){
                     $(".pdf[id="+response.pmid+"]").attr("href",response.pdf_url).text("PDF(Full Text)").css('color','#20558a')
                 } else {
@@ -267,17 +213,14 @@ function get_jcr_sci(){
             pubmedxml=0;          
             return}
         })
-    console.log("get jcr_sci use",(Date.now() - start)/1000)
     return ret
 }
 
 function  retry(fn, retries=3, err=null,i=1) {
   if (i>   retries) {
-    console.log("retry",i)
     return Promise.reject(err);
   }
   return fn().catch(err => {
-        console.log("retry",i)
       return retry(fn, retries, err, i+1);
     });
 }
@@ -294,7 +237,6 @@ Return a xml file with multiple aritcle data as a whole*/
         pmids=pmid.join(",")
     }
     let efetch = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id="+ pmids +'&rettype=abstract';
-    console.log("start get")
     return $.ajax({
         type: 'GET',
         url: efetch,
@@ -357,7 +299,6 @@ bibtex is bibtex formatted data
     let efetch = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id="+ pmid +'&rettype=abstract';
     bib["efetch"]=efetch
     bib['filename'] = `PMID${bib['PMID_analyse']}_${bib['Author'][0]["lastname"]}_${bib['Year']}`
-    //console.log(bib)
     bibtex += `@Article{PMID${bib['PMID_analyse']}_${bib['Author'][0]["lastname"]}_${bib['Year']},\n`
     for ( key of ['Title','Author','Journal','Year','Volume','Issue','Pages','doi']){
         if (key=="Author"){
@@ -369,7 +310,6 @@ bibtex is bibtex formatted data
         }
     }
     bibtex+="}"
-    //console.log(bibtex)
     bib["bibtex"]=bibtex
     return {"bib": bib}
 }
@@ -390,14 +330,6 @@ function get_pmid_imfq(pmid,bib,jcr_sci){
             imfq["q"]= temp[0].B
         }
     }
-    // JOURNAL_FULL = bib['Journal_full']
-    // JOURNAL_FULL =JOURNAL_FULL.toUpperCase().replace(",","").replace(/^THE /,"");
-    // temp = $("TITLE",jcr_sci).filter(function() {
-    //     return $(this).text() === JOURNAL_FULL}).siblings();//:contains("+ JOURNAL_FULL +")
-    // if (temp.length==2){
-    //     imfq["imf"] = temp[0].textContent;
-    //     imfq["q"]= temp[1].textContent;
-    // } 
     return imfq
 }
 
@@ -424,13 +356,7 @@ function core_analyse_imfq(bibs){
         Object.assign(bibs[id[i]], get_pmid_imfq(id[i],bibs[id[i]],jcr_sci))
         
     }
-    console.log("get imfq analyse use",(Date.now() - start)/1000)
     return bibs
-    // let id=len(bibs)["id"]
-    // var i=0
-    // for (i=0; i<len(bibs)["l"]; i++) {
-    //     Object.assign(bibs[id[i]]['bib'], get_pmid_imfq(id[i],bibs[id[i]]["bib"]))
-    // }
 }
 
 function create_insert_html(pmid,bib){
@@ -461,7 +387,6 @@ function create_insert_html(pmid,bib){
             html += "<dd style='background-color:#f3f9d2 !important'>"+bib["q"]+"</dd>";break;
     }
     html += "<dd>Impact Factor: "+bib["imf"]+"</dd>";
-    // html += "<dd><a style='color:grey' target='_blank' id='"+pmid+"'>Loading PDF Address...</a></dd>";
     if (bib["doi_get"]!=""){
         html += "<dd><a class='scihub_link', id="+pmid+" target='_blank' href='"+localStorage["scihub_url"]+bib["doi_get"]+"'>Link to Sci-Hub</a></dd>";
     } else {
@@ -552,120 +477,3 @@ var fail_prompt = function(message, time)
 {
     prompt(message, 'ep-alert-danger', time);
 };
-
-//Unused function
-// function len(bibs){
-//     var l=0 
-//     var id=[]
-//     for (i=0; i<bibs.length;i++){if (bibs[i]!=undefined){l++;id.push(i)}}
-//     return {"l":l,"id":id}
-// }
-
-//GARBAGE
-
-/*<p style="white-space: pre-line">' + bib["bibtex"] + '</p>\*/
-
-// pmids = ['30293440','30566553',14985485,'aaaaaa']
-// x[14985483]["bib"]["Journal_full"]="New England journal of medicine"
-// bibs = core_analyse_pubmed(pmids)
-// bibs[14985485]["bib"]["Journal_full"]="New England journal of medicine"
-// bibs = core_analyse_imfq(bibs)
-
-// var insert_html
-// insert_html = create_insert_html(pmids[0],bibs[pmids[0]])
-// $(".heading[id='heading']").append(insert_html);
-// $(".abstract[id='abstract']").append(insert_html);
-// insert_html = create_insert_html(pmids[3],bibs[pmids[3]])
-// document.write(insert_html);
-// insert_html = create_insert_html(pmids[2],bibs[pmids[2]])
-// document.write(insert_html);
-// $(".heading[id='heading']").append("<script src='"+modal_url+"'></script>")
-
-//console.log(x)
-
-
-
-// html += "<a class='ep-impactfactor-citation' href='#' data-id='2'>Bibtex</a>";
-// html +="</dd><dt>Cited:</dt><dd class='cited-num' data-pmid='1'>";
-//html += "<img src='"+chrome.extension.getURL("images/view19.png")+"'>";
-// if(pmid in scihub){
-//     html += "<dd><a target='_blank' href='"+serverURL+scihub[pmid]+"'>Full Text(PDF)</a></dd>";
-// }else{
-//     html += "<dd><span class='pmid-sci-hub' data-pmid='"+pmid+"'>Full Text(PDF)</span></dd>";
-// }
-// var efetch = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id='+ pmid +'&rettype=abstract';
-// var xml
-// xml=httpGet(efetch)
-// var res
-// res=$.ajax({
-//         type: 'GET',
-//         url: efetch,
-//         dataType:'XML',
-//         success: function(r){console.log(r)},
-//         error: function(e){console.log(`error ${e}`)}
-//         });
-// var XML
-// XML=response.responseXML;
-// console.log(XML);
-// // return $("#ArticleTitle", XML);
-
-// function get_bibtex(pmid){
-//     var efetch = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id='+ pmid +'&rettype=abstract';
-//     var res
-//     var XML
-//     res = $.ajax({
-//         type: 'GET',
-//         url: efetch,
-//         cache: false
-//         })
-//     XML=res.responseXML
-//     console.log(XML)
-//     return $("#ArticleTitle", XML)
-// };
-
-
-// console.log(pmid)
-// get_bibtex(pmid)
-// function callback(responseText){
-//     console.log("callback")
-// }
-// function httpGet(theUrl,callback){
-//     let xmlHttp = new XMLHttpRequest();
-//     let readyStateChange = function(){
-//         console.log(xmlHttp.readyState);
-//         if (xmlHttp.readyState == 4) {
-//                     callback(xmlHttp.responseXML);
-//         };
-//     };
-//     xmlHttp.onreadystatechange = readyStateChange;
-//     xmlHttp.open( "POST", theUrl, true); // false for synchronous request
-//     xmlHttp.send( null );
-//     return xmlHttp;
-// }
-
-// var res
-// res = httpGet(efetch,callback)
-// console.log(res)
-
-                // if (bibs[pmid]["doi"]!=""){
-                //     $("a[id="+pmid+"]")[0].href="https://sci-hub.tw/"+bibs[pmid]["doi"];
-                //     $("a[id="+pmid+"]")[0].innerText="Full Text(PDF)";
-                //     $("a[id="+pmid+"]")[0].style.color="#20558a";
-                // } else {
-                //     $("a[id="+pmid+"]")[0].innerText="Full Text(Not Found)";
-                //     $("a[id="+pmid+"]")[0].style.color="grey";
-                // }
-                                // bibs = core_analyse_imfq(bibs)
-                // if (bibs[pmid]["doi"]!=""){
-                //     $("a[id="+pmid+"]")[0].href="https://sci-hub.tw/"+bibs[pmid]["doi"];
-                //     $("a[id="+pmid+"]")[0].innerText="Full Text(PDF)";
-                //     $("a[id="+pmid+"]")[0].style.color="#20558a";
-                // } else {
-                //     $("a[id="+pmid+"]")[0].innerText="Full Text(Not Found)";
-                //     $("a[id="+pmid+"]")[0].style.color="grey";
-                // }
-                
-    //     html += "<dd><a target='_blank' href='"+"https://sci-hub.tw/"+bib["doi"]+"'>Full Text(PDF)</a></dd>";
-    // } else {
-    //     html += "<dd style='color:grey'>Full Text(Not Found)</dd>"
-    // }

@@ -45,7 +45,5 @@
         "contextMenus",
         "storage",
         "<all_urls>"
-        // "https://eutils.ncbi.nlm.nih.gov/*",
-        // "https://sci-hub.*/*"
     ]
 }
