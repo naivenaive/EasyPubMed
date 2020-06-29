@@ -159,7 +159,7 @@ EasyPubMed及其作者不对此扩展所提供数据（包括JCR杂志影响因�
  
  - 您所访问的PubMed网站中所获得文章的相关信息：该扩展通过分析网站中展示的文章信息获取各文章doi号码并将号码传递到后台。在后台，扩展匿名地通过doi号码访问您所选择的Sci-Hub网址 (https://sci-hub.tw/, https://sci-hub.st/, https://sci-hub.se/或https://sci-hub.ee/) 以获取该文章是否在Sci-Hub中存在全文。该信息被传递到前台以激活或失活“Full-text"按钮的形式显示在页面中。在此过程中未传递您的任何私人信息。
 
-EasyPubMed尊重您的的数据隐私。您任何私人信息均未被搜集、分享、上传或向第三方披露。如有任何有关数据搜集及隐私方面管问题，您可以随时联系easypubmed.project@gmail.com。
+EasyPubMed尊重您的的数据隐私。您任何私人信息均未被搜集、分享、上传或向第三方披露。如有任何有关数据搜集及隐私方面的问题，您可以随时联系easypubmed.project@gmail.com。
 
 <p align="right">
 <a href="https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%20User%20Manual.md#privacy-policy">English version: Privacy policy</a>
