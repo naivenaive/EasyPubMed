@@ -12,7 +12,7 @@
   - [Popup Page](#popup-page)
 - [Data Source](#data-source)
 - [Disclaimer](#disclaimer)
-- [Privacy Policy](#privacy-policy)
+- [Privacy policy](#privacy-policy)
 - [Bug report and suggestion](#bug-report-and-suggestion)
 - [Donation](#donation)
 - [Developing story](#developing-story)
@@ -150,15 +150,15 @@ The EasyPubMed extension and its developer take no responsibility for the data a
 <a href="#top">Back to top</a>
 </p>
 
-## Privacy Policy
- This extenssion does not collect your name or other personal identifying information. This extension uses the metadata about articles in PubMed website(https://pubmed.ncbi.nlm.nih.gov/)  the user browse and save the user's default options for using this extension (default sci-hub url and your preference to show JCR quartile or CAS block) in local storage. The following item may be considered personal information:
+## Privacy policy
+ This extenssion does not collect any personal identifying information. This extension uses the metadata about articles in PubMed website(https://pubmed.ncbi.nlm.nih.gov/)  the user browse and save the user's default options for using this extension (default sci-hub url and your preference to show JCR quartile or CAS block) in local storage. The following item may be considered personal information:
 
 - Information about the articles the user browse in PubMed website: The dois of the articles are analysed from the PubMed website the user browse and send back to the background page. In the background page, the dois are submitted to the user's selected sci-hub website (https://sci-hub.tw/, https://sci-hub.st/, https://sci-hub.se/ or https://sci-hub.ee/) anonymously to fetch information about whether the full-text is available or not. The information is sent back to the front and display in the EasyPubMed toolbar by enabling or disabling the 'Full-text' button. No personal information is transmitted in the process.
 
 We respect your data privacy. No personal information that can identify you is collected, shared, submitted or disclosed with any other party. Questions about data collection and privacy can be addressed to easypubmed.project@gmail.com.
 
 <p align="right">
-<a href="">查看中文版：隐私</a>
+<a href="https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md#%E9%9A%90%E7%A7%81">查看中文版：隐私</a>
 <br>
 <a href="#top">Back to top</a>
 </p>
