@@ -42,11 +42,18 @@ cas_switch1.addEventListener("click", function () {
 
 scihub_button.addEventListener("click", function () {
     let scihub_url = $("#scihub_url")[0].value
-    if (scihub_url.match(/https:\/\/.*\/|http:\/\/.*\//)) {
-        chrome.runtime.sendMessage({command: 'setItem', name: 'scihub_url',data: scihub_url})
-        success_prompt("Default Sci-Hub URL:\n"+scihub_url)
-    } else {
-        fail_prompt("Invalid Sci-Hub URL. Valid Sci-Hub URL should start with 'https://' or 'http://' and end with ‘/’",4000)
+    // if (scihub_url.match(/https:\/\/.*\/|http:\/\/.*\//)) {
+    //     chrome.runtime.sendMessage({command: 'setItem', name: 'scihub_url',data: scihub_url})
+    //     success_prompt("Default Sci-Hub URL:\n"+scihub_url)
+    // } else {
+    //     fail_prompt("Invalid Sci-Hub URL. Valid Sci-Hub URL should start with 'https://' or 'http://' and end with ‘/’",4000)
+    //     }
+    // }
+        if (['https://sci-hub.tw/', "https://sci-hub.st/", "https://sci-hub.se/", "https://sci-hub.ee/"].includes(scihub_url)){
+            chrome.runtime.sendMessage({command: 'setItem', name: 'scihub_url',data: scihub_url})
+            success_prompt("Default Sci-Hub URL:\n"+scihub_url)
+        } else {
+            fail_prompt("Invalid Sci-Hub URL. Valid Sci-Hub URL are https://sci-hub.tw/, https://sci-hub.st/, https://sci-hub.se/ and https://sci-hub.ee/",4000)
         }
     })
 

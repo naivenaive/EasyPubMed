@@ -257,7 +257,7 @@ bibtex is bibtex formatted data
     bib['Journal_full'] = $("MedlineCitation Article Journal Title",pubmedxml)
     bib['Abstract'] = $("MedlineCitation Article Abstract AbstractText",pubmedxml)
     bib['Volume'] = $("MedlineCitation Article Journal JournalIssue Volume",pubmedxml)
-    bib['Issue'] = $("MedlineCitation Article Journal JournalIssue Issue",pubmedxml)
+    bib['Number'] = $("MedlineCitation Article Journal JournalIssue Issue",pubmedxml)
     bib['Year'] = $("MedlineCitation Article Journal JournalIssue PubDate Year, MedlineCitation Article Journal JournalIssue PubDate MedlineDate",pubmedxml)
     bib['Month'] = $("MedlineCitation Article Journal JournalIssue PubDate Month",pubmedxml)
     bib['doi'] = $("MedlineCitation Article ELocationID[EIdType='doi'],ArticleIdList ArticleId[IdType='doi']",pubmedxml)
@@ -300,7 +300,7 @@ bibtex is bibtex formatted data
     bib["efetch"]=efetch
     bib['filename'] = `PMID${bib['PMID_analyse']}_${bib['Author'][0]["lastname"]}_${bib['Year']}`
     bibtex += `@Article{PMID${bib['PMID_analyse']}_${bib['Author'][0]["lastname"]}_${bib['Year']},\n`
-    for ( key of ['Title','Author','Journal','Year','Volume','Issue','Pages','doi']){
+    for ( key of ['Title','Author','Journal','Year','Volume','Number','Pages','doi']){
         if (key=="Author"){
             bibtex += 'Author={'+bib['Author'].map(e => Object.values(e).join(', ')).join(' AND ')+"},\n"
             continue
@@ -442,8 +442,8 @@ function downloadOnClick(event){
 }
 
 function copytoClip(content){
-    var aux = document.createElement("input");
-    aux.setAttribute("value",content);
+    var aux = document.createElement("textarea");
+    aux.value = content;
     document.body.appendChild(aux);
     aux.select();
     document.execCommand("copy");

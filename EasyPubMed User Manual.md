@@ -12,6 +12,7 @@
   - [Popup Page](#popup-page)
 - [Data Source](#data-source)
 - [Disclaimer](#disclaimer)
+- [Privacy Policy](#privacy-policy)
 - [Bug report and suggestion](#bug-report-and-suggestion)
 - [Donation](#donation)
 - [Developing story](#developing-story)
@@ -145,6 +146,19 @@ We use the journal's PubMed journal abbreviation as a unique identifier to obtai
 The EasyPubMed extension and its developer take no responsibility for the data accuracy (including  JCR impact factor, JCR journal's quartile ranking, CAS journal's block ranking, article's information in BibTex format) and the origin of full-text article from Sci-Hub website. If you want to get the JCR impact factor or JCR journal's quartile, you should go to the JCR official website: https://jcr.clarivate.com/. If you want to get the CAS Journal Block Ranking, you should go to the following website: http://www.fenqubiao.com/.
 <p align="right">
 <a href="https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md#%E5%A3%B0%E6%98%8E">查看中文版：声明</a>
+<br>
+<a href="#top">Back to top</a>
+</p>
+
+## Privacy Policy
+ This extenssion does not collect your name or other personal identifying information. This extension uses the metadata about articles in PubMed website(https://pubmed.ncbi.nlm.nih.gov/)  the user browse and save the user's default options for using this extension (default sci-hub url and your preference to show JCR quartile or CAS block) in local storage. The following item may be considered personal information:
+
+- Information about the articles the user browse in PubMed website: The dois of the articles are analysed from the PubMed website the user browse and send back to the background page. In the background page, the dois are submitted to the user's selected sci-hub website (https://sci-hub.tw/, https://sci-hub.st/, https://sci-hub.se/ or https://sci-hub.ee/) anonymously to fetch information about whether the full-text is available or not. The information is sent back to the front and display in the EasyPubMed toolbar by enabling or disabling the 'Full-text' button. No personal information is transmitted in the process.
+
+We respect your data privacy. No personal information that can identify you is collected, shared, submitted or disclosed with any other party. Questions about data collection and privacy can be addressed to easypubmed.project@gmail.com.
+
+<p align="right">
+<a href="">查看中文版：隐私</a>
 <br>
 <a href="#top">Back to top</a>
 </p>
