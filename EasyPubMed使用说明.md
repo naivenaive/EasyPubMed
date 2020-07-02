@@ -18,6 +18,8 @@
 - [开发故事](#开发故事)
 - [作者](#作者)
 
+> [**如Github网站图片加载出现问题，可访问知乎获取相同内容**](https://zhuanlan.zhihu.com/p/150317440)
+
 > 提示: 同时按住Ctrl键并单击相应的链接可在新标签页打开此链接
 
 >Go to [EasyPubMed User Manual (English)](https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%20User%20Manual.md)

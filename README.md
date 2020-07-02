@@ -6,6 +6,7 @@
 **EasyPubMed使新版PubMed更好用**
 
 [**EasyPubMed使用说明(中文版)**](https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md)
+[**如Github网站图片加载出现问题，可访问知乎获取相同内容**](https://zhuanlan.zhihu.com/p/150317440)
 
 **EasyPubMed is a Chrome extension to make New PubMed easy to use**
 
