@@ -30,6 +30,8 @@
 
 - 特色工具条，专为新版PubMed设计
 
+- 通过Edge及Chrome商店审查，无需开发者模式，安全放心
+
 - 极速加载：采用本地数据库，平均加载时间<0.1s
 
 - 一键点击从Sci-Hub获取全屏全文PDF
@@ -48,11 +50,15 @@
 ## 安装
 
 浏览器支持: Chrome, Edge
-目前版本为测试版本，功能已经大部分开发完毕。目前尚未上线Google及Edge应用商店，但已提交，正在审查中（2020.6.23）
 
-目前使用者可以采用开发者模式安装试用，欢迎[反馈](#错误报告及建议)
+目前Google及Edge应用商店均已通过应用商店安全审查，您可以通过Chrome及Edge商店直接添加此扩展0.0.2版本（采用2019年JCR数据），无需打开开发者模式。最新版本0.03（使用2020年JCR数据）已提交审查将于近期上线，请关注。欢迎[反馈](#错误报告及建议)
 
-1. 下载扩展插件: 点击此链接[EasyPubMed](https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed.zip)，点击download按钮下载EasyPubMed.zip文件（151KB）。有时国内访问Github会出现错误，您也可以通过百度网盘链接：https://pan.baidu.com/s/1b69p7KEG6F8C6QGsuxBRdQ (提取码：2g4q)获取。
+Edge版本地址为https://microsoftedge.microsoft.com/addons/detail/easypubmed/daibhooimgnmhjagkkjamadijfambhid
+
+Chrome版本地址为（国内访问需使用代理）https://chrome.google.com/webstore/detail/easypubmed/nkpdpmomjhifdobiopmgfjjffacldfje?hl=en
+
+目前最新版本EasyPubMed v0.03（使用2020年JCR数据）已上传至Github，您可以通过开发者模式使用。方法如下
+1. 下载扩展插件: 点击此链接[EasyPubMed](https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed.zip)，点击download按钮下载EasyPubMed.zip文件。有时国内访问Github会出现错误，您也可以通过百度网盘链接：https://pan.baidu.com/s/1b69p7KEG6F8C6QGsuxBRdQ (提取码：2g4q)（v0.0.2版本，2019年JCR数据）获取。
 2. 解压缩EasyPubMed.zip文件（选择‘解压到当前文件夹’即可）生成EasyPubMed文件夹
 3. 打开chrome或edge浏览器，在导航栏输入chrome://extensions（Chrome浏览器）或edge://extensions（Edge浏览器），确保开发者模式打开，点击‘加载解压缩的扩展’按钮，选择EasyPubMed文件夹即可加载成功。
 
