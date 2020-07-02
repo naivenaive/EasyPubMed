@@ -1,7 +1,7 @@
 
 const modal_url = chrome.runtime.getURL('script/modal.js')
 const style_url = chrome.runtime.getURL('css/style.css')
-const jcr_sci_url = chrome.runtime.getURL('data/imfqb_pubmed_abbv.json')
+const jcr_sci_url = chrome.runtime.getURL('data/ifqbt_2020.json')
 
 var pmids=[]
 var bibs={}
