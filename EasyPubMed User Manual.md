@@ -129,16 +129,25 @@ Chrome：https://chrome.google.com/webstore/detail/easypubmed/nkpdpmomjhifdobiop
 
 ## Data Source
 
-We merge the data from NLM catalog, 2019 Journal Citation Reports and CAS Journal Block Ranking Report (2019.12.26) by journal's unqiue ISSN. The result has been carefully checked. Since JCR reports and CAS report may misuse eISSN as ISSN, there may be some mistakes in data processing. If you find a mistake, please report to me.
+We merge the data from NLM catalog, 2020 Journal Citation Reports and CAS Journal Block Ranking Report (2019.12.26) by journal's unqiue ISSN. We use the journal's PubMed journal abbreviation as a unique identifier to obtain its impact factor, JCR quartile ranking and CAS block ranking.The result has been carefully checked. Since JCR reports and CAS report may misuse eISSN as ISSN, there may be some mistakes in data processing. If you find a mistake, please report to me.
 
-We use the journal's PubMed journal abbreviation as a unique identifier to obtain its impact factor, JCR quartile ranking and CAS block ranking. The following journals share the same Pubmed journal Abbreviation (I have reported the bug to NLM). Please be careful.
 
-- PubMed journal abbreviation: Front Phys
-   - Frontiers of Physics (ISSN:2095-0462; IF:2.483; Q2; B2) 
-   - Frontiers in Physics (ISSN: 2296-424X; IF:1.895; Q2; B3) 
-- PubMed journal abbreviation: Microbiology 
-   - Microbiology (Reading, England) (ISSN: 1350-0872; IF:1.922; Q4; B4)
-   - Microbiology (ISSN: 0026-2617; IF:1.027; Q4; B4)
+
+Previous problem:
+>The following journals share the same Pubmed journal Abbreviation (I have reported the bug to NLM). Please be careful.
+>- PubMed journal abbreviation: Front Phys
+>   - Frontiers of Physics (ISSN:2095-0462; IF:2.483; Q2; B2) 
+>   - Frontiers in Physics (ISSN: 2296-424X; IF:1.895; Q2; B3) 
+>- PubMed journal abbreviation: Microbiology 
+>   - Microbiology (Reading, England) (ISSN: 1350-0872; IF:1.922; Q4; B4)
+>   - Microbiology (ISSN: 0026-2617; IF:1.027; Q4; B4)
+
+NLM replied and made some change. Here is the response
+
+>The following changes have been made:
+> MedAbbr for Frontiers of physics (NLM UI 101600789) changed to: Front Phys (Beijing)
+> MedAbbr for Microbiology (NLM UI 0376646) changed to: Microbiology (N Y)
+
 <p align="right">
 <a href="https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md#%E6%95%B0%E6%8D%AE%E6%9D%A5%E6%BA%90">查看中文版：数据来源</a>
 <br>

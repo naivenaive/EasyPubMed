@@ -137,16 +137,23 @@ Chrome版本地址为（国内访问需使用代理）https://chrome.google.com/
 
 ## 数据来源
 
-采用杂志唯一的ISSN编号将Pubmed数据库杂志信息、2019年JCR报告、2019年12月26日发布的中科院（CAS）文献情报分区表合并。结果已经过手动核查。但由于JCR及CAS报告可能错误的将eISSN用作ISSN，因此合并过程可能出现错误。如果您发现数据有误，您可以通过发送邮件到<easypubmed.project@gmail.com>或在<https://github.com/naivenaive/EasyPubMed/issues>中发起新提议以将错误信息报告给我们. 
+采用杂志唯一的ISSN编号将Pubmed数据库杂志信息、2020年JCR报告、2019年12月26日发布的中科院（CAS）文献情报分区表合并。我们采用Pubmed杂志缩写获取各杂志的影响因子、JCR分区及CAS分区。结果已经过手动核查。但由于JCR及CAS报告可能错误的将eISSN用作ISSN，因此合并过程可能出现错误。如果您发现数据有误，您可以通过发送邮件到<easypubmed.project@gmail.com>或在<https://github.com/naivenaive/EasyPubMed/issues>中发起新提议以将错误信息报告给我们. 
 
-我们采用Pubmed杂志缩写获取各杂志的影响因子、JCR分区及CAS分区。由于NLM的问题（已将此问题汇报给NLM），以下杂志使用了相同的Pubmed杂志缩写，使用时请引起注意。
+既往问题：
+>由于NLM的问题（已将此问题汇报给NLM），以下杂志使用了相同的Pubmed杂志缩写，使用时请引起注意。
+>- Pubmed杂志缩写: Front Phys
+>   - Frontiers of Physics (ISSN:2095-0462; IF:2.483; Q2; B2) 
+>   - Frontiers in Physics (ISSN: 2296-424X; IF:1.895; Q2; B3) 
+>- Pubmed杂志缩写: Microbiology 
+>   - Microbiology (Reading, England) (ISSN: 1350-0872; IF:1.922; Q4; B4)
+>   - Microbiology (ISSN: 0026-2617; IF:1.027; Q4; B4)
 
-- Pubmed杂志缩写: Front Phys
-   - Frontiers of Physics (ISSN:2095-0462; IF:2.483; Q2; B2) 
-   - Frontiers in Physics (ISSN: 2296-424X; IF:1.895; Q2; B3) 
-- Pubmed杂志缩写: Microbiology 
-   - Microbiology (Reading, England) (ISSN: 1350-0872; IF:1.922; Q4; B4)
-   - Microbiology (ISSN: 0026-2617; IF:1.027; Q4; B4)
+此问题已得到NLM反馈并解决，以下为回复邮件引用
+
+>The following changes have been made:
+> MedAbbr for Frontiers of physics (NLM UI 101600789) changed to: Front Phys (Beijing)
+> MedAbbr for Microbiology (NLM UI 0376646) changed to: Microbiology (N Y)
+
 <p align="right">
 <a href="https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%20User%20Manual.md#data-source">English version: Data source</a>
 <br>
