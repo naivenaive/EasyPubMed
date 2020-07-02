@@ -145,7 +145,9 @@ Previous problem:
 NLM replied and made some change. Here is the response
 
 >The following changes have been made:
+
 > MedAbbr for Frontiers of physics (NLM UI 101600789) changed to: Front Phys (Beijing)
+
 > MedAbbr for Microbiology (NLM UI 0376646) changed to: Microbiology (N Y)
 
 <p align="right">

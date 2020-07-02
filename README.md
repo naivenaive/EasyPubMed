@@ -154,7 +154,9 @@ Chrome版本地址为（国内访问需使用代理）https://chrome.google.com/
 此问题已得到NLM反馈并解决，以下为回复邮件引用
 
 >The following changes have been made:
+
 > MedAbbr for Frontiers of physics (NLM UI 101600789) changed to: Front Phys (Beijing)
+
 > MedAbbr for Microbiology (NLM UI 0376646) changed to: Microbiology (N Y)
 
 <p align="right">
