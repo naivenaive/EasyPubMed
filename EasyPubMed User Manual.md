@@ -73,7 +73,7 @@ Chrome：https://chrome.google.com/webstore/detail/easypubmed/nkpdpmomjhifdobiop
 
 2. Display  JCR (Journal Citation Reports) journal's quartile ranking or CAS (Chinese Academy of Sciences) journal's block ranking  as you set in [popup page](#option)
 
-   - JCR Quartile Ranking: Data from 2020 *Journal Citation Reports*, the best journal performance in all subcategories (include SSCI and SCIE) is tagged. For example, if the journal get Q1 in A subcategory and Q3 in B subcategory, the journal will be labelled as Q1, the best performance. We use Q1 (red), Q2 (yellow), Q3 (green), Q4 (grey) with different color to display different JCR quartile ranking. NA stands for not recorded in the report.
+   - JCR Quartile Ranking: Data from 2020 *Journal Citation Reports*, the best journal performance in all SCIE subcategories is tagged. For example, if the journal get Q1 in A subcategory and Q3 in B subcategory, the journal will be labelled as Q1, the best performance. We use Q1 (red), Q2 (yellow), Q3 (green), Q4 (grey) with different color to display different JCR quartile ranking. NA stands for not recorded in the report.
 
     <img src="md_image/image-20200621180515339.png" alt="image-20200621180515339" width=20% />
 
