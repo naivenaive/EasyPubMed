@@ -198,6 +198,9 @@ We are working on more exciting functions, please let us know if you have any co
 
 The EasyPubMed extension is completely free despite it takes us a lot of time to develop the extension. If you find it useful,  will you consider supporting us a cup of coffee($5), a box of snacks($10) or a good lunch($20)? We will feel great encouraged.
 
+Welcome to use Paypal: https://www.paypal.com/paypalme/easypubmed
+
+or donate via QR code (Aliplay, WeChatpay or QQpay)
 <p align='center'>
 <left><img src="md_image/image_20200623115902.jpg" alt="image_20200623115902.jpg"  width=30% />
 </p>
