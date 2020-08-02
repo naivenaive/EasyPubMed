@@ -18,7 +18,7 @@
 - [Developing story](#developing-story)
 - [Author](#author)
 
-> Version 0.0.4 (2020.8.2) Update: [Update Log](https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%20User%20Manual.md)
+> Version 0.0.4 (2020.8.2) Update: [Update Log](https://github.com/naivenaive/EasyPubMed/blob/master/Update_log.md)
 > - Fix display problem of impact factor and JCR quartile or CAS block in search mode due to the update of pubmed in 2020/7/17
 > - Add https://sci-hub.ren into the sci-hub url lists as request by Xiaochen-Zhang99 
 > - Fix version display bug in popup page
