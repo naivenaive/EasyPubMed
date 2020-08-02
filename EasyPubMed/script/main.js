@@ -109,11 +109,11 @@ function mo_callback(mutation){
     new_pmids = $(mutation.addedNodes).attr("data-chunk-ids").split(",")
 
     let search_page = $(mutation.addedNodes).attr("data-page-number")
-    let journals=$(".labs-docsum-journal-citation.full-journal-citation",mutation.addedNodes[0]).map(function(){
+    let journals=$(".docsum-journal-citation.full-journal-citation",mutation.addedNodes[0]).map(function(){
         let x = $(this).text().match(/^[^.]*/);
         if (x==null) {return ""} else {return x};
         }).get()
-    let dois=$(".labs-docsum-journal-citation.full-journal-citation",mutation.addedNodes[0]).map(function(){
+    let dois=$(".docsum-journal-citation.full-journal-citation",mutation.addedNodes[0]).map(function(){
         let x=$(this).text().match(/(?<=doi: ).*(?=\. )|(?<=doi: ).*(?=\.$)/); 
         if (x==null) {return ""} else {return x};
         }).get()
