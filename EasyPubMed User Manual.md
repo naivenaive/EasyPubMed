@@ -200,7 +200,7 @@ The EasyPubMed extension is completely free despite it takes us a lot of time to
 
 Welcome to use Paypal: https://www.paypal.com/paypalme/easypubmed
 
-or donate via QR code (Aliplay, WeChatpay or QQpay)
+or donate via QR code (Alipay, WeChatpay or QQpay)
 <p align='center'>
 <left><img src="md_image/image_20200623115902.jpg" alt="image_20200623115902.jpg"  width=30% />
 </p>
