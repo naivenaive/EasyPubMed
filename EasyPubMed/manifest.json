@@ -1,7 +1,7 @@
 {
     "name": "EasyPubMed",
     "manifest_version": 2,
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Show Imapct Factor(IF), JCR quartile, CAS block on PubMed, full-text download and article information in Bibtex",
     "short_name": "EP",
     "icons": {
@@ -41,6 +41,6 @@
     ],
     "permissions": [
         "storage",
-  "https://sci-hub.tw/", "https://sci-hub.st/", "https://sci-hub.se/", "https://sci-hub.ee/"
+  "https://sci-hub.tw/", "https://sci-hub.st/", "https://sci-hub.se/", "https://sci-hub.ee/", "https://sci-hub.ren/"
     ]
 }

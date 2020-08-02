@@ -1,3 +1,6 @@
+var manifestData = chrome.runtime.getManifest();
+$("#versiontitle").text("Version "+ manifestData.version+" By Tian Zhen")
+
 if (localStorage["q_cat"]=='jcr'){
     jcr_switch1.className='open1';jcr_switch2.className='open2';
     cas_switch1.className='close1';cas_switch2.className='close2'
@@ -49,11 +52,11 @@ scihub_button.addEventListener("click", function () {
     //     fail_prompt("Invalid Sci-Hub URL. Valid Sci-Hub URL should start with 'https://' or 'http://' and end with ‘/’",4000)
     //     }
     // }
-        if (['https://sci-hub.tw/', "https://sci-hub.st/", "https://sci-hub.se/", "https://sci-hub.ee/"].includes(scihub_url)){
+        if (['https://sci-hub.tw/', "https://sci-hub.st/", "https://sci-hub.se/", "https://sci-hub.ee/","https://sci-hub.ren/"].includes(scihub_url)){
             chrome.runtime.sendMessage({command: 'setItem', name: 'scihub_url',data: scihub_url})
             success_prompt("Default Sci-Hub URL:\n"+scihub_url)
         } else {
-            fail_prompt("Invalid Sci-Hub URL. Valid Sci-Hub URL are https://sci-hub.tw/, https://sci-hub.st/, https://sci-hub.se/ and https://sci-hub.ee/",4000)
+            fail_prompt("Invalid Sci-Hub URL. Valid Sci-Hub URL are https://sci-hub.tw/, https://sci-hub.st/, https://sci-hub.se/, https://sci-hub.ee/ and https://sci-hub.ren/",4000)
         }
     })
 

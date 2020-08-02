@@ -45,11 +45,11 @@ function main(){
             // let start=Date.now()
             pmids = $(".search-results-chunk.results-chunk").attr("data-chunk-ids").split(",")
             let search_page = $(".search-results-chunk.results-chunk").attr("data-page-number")
-            let journals=$(".labs-docsum-journal-citation.full-journal-citation").map(function(){
+            let journals=$(".docsum-journal-citation.full-journal-citation").map(function(){
                 let x = $(this).text().match(/^[^.]*/);
                 if (x==null) {return ""} else {return x};
             }).get()
-            let dois=$(".labs-docsum-journal-citation.full-journal-citation").map(function(){
+            let dois=$(".docsum-journal-citation.full-journal-citation").map(function(){
                 let x=$(this).text().match(/(?<=doi: ).*(?=\. )|(?<=doi: ).*(?=\.$)/); 
                 if (x==null) {return ""} else {return x};
             }).get()
