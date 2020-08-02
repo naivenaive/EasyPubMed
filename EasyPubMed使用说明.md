@@ -18,8 +18,8 @@
 - [开发故事](#开发故事)
 - [作者](#作者)
 
-> 更新至Version 0.0.4（2020.8.2）：[更新日志](https://github.com/naivenaive/EasyPubMed/blob/master/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.md)
-> - 已修复2020/7/17 由于Pubmed网站更新所致无法显示IF、JCR及CAS分区的问题
+> 更新至Version 0.0.5（2020.8.2）：[更新日志](https://github.com/naivenaive/EasyPubMed/blob/master/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.md)
+> - 进一步修复2020/7/17 由于Pubmed网站更新所致无法显示IF、JCR及CAS分区的问题
 > - 支持https://sci-hub.ren作为sci-hub URL 
 > - 修复弹出页面版本号错误问题
 
