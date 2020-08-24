@@ -5,18 +5,19 @@
 **EasyPubMed使新版PubMed更好用**
 
 
-- [功能特色](#功能特色)
-- [安装](#安装)
-- [功能展示](#功能展示)
-  - [EasyPubMed工具条](#easypubmed工具条)
-  - [弹出页面](#弹出页面)
-- [数据来源](#数据来源)
-- [声明](#声明)
-- [隐私](#隐私)
-- [错误报告及建议](#错误报告及建议)
-- [捐赠](#捐赠)
-- [开发故事](#开发故事)
-- [作者](#作者)
+- [EasyPubMed使用说明](#easypubmed使用说明)
+  - [功能特色](#功能特色)
+  - [安装](#安装)
+  - [功能展示](#功能展示)
+    - [EasyPubMed工具条](#easypubmed工具条)
+    - [弹出页面](#弹出页面)
+  - [数据来源](#数据来源)
+  - [声明](#声明)
+  - [隐私](#隐私)
+  - [错误报告及建议](#错误报告及建议)
+  - [捐赠](#捐赠)
+  - [开发故事](#开发故事)
+  - [作者](#作者)
 
 > 更新至Version 0.0.5（2020.8.2）：[更新日志](https://github.com/naivenaive/EasyPubMed/blob/master/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.md)
 > - 进一步修复2020/7/17 由于Pubmed网站更新所致无法显示IF、JCR及CAS分区的问题
@@ -58,13 +59,13 @@
 
 浏览器支持: Chrome, Edge
 
-目前Google及Edge应用商店均已通过应用商店安全审查，您可以通过Chrome及Edge商店直接添加此扩展0.0.4版本（采用2020年JCR数据）。欢迎[反馈](#错误报告及建议)
+目前Google及Edge应用商店均已通过应用商店安全审查，您可以通过Chrome及Edge商店直接添加此扩展0.0.5版本（采用2020年JCR数据）。欢迎[反馈](#错误报告及建议)
 
 Edge版本地址为https://microsoftedge.microsoft.com/addons/detail/easypubmed/daibhooimgnmhjagkkjamadijfambhid
 
 Chrome版本地址为（国内访问需使用代理）https://chrome.google.com/webstore/detail/easypubmed/nkpdpmomjhifdobiopmgfjjffacldfje?hl=en
 
-目前最新版本EasyPubMed v0.0.4（使用2020年JCR数据）已上传至Github，您可以通过开发者模式使用。方法如下
+目前最新版本EasyPubMed v0.0.5（使用2020年JCR数据）已上传至Github，您可以通过开发者模式使用。方法如下
 1. 下载扩展插件: 点击此链接[EasyPubMed](https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed.zip)，点击download按钮下载EasyPubMed.zip文件。国内如无法下载可以通过此链接[EasyPubmed(国内)](https://easypubmed.coding.net/p/easypubmed/d/easypubmed/git/tree/master/EasyPubMed.zip)下载
 2. 解压缩EasyPubMed.zip文件（选择‘解压到当前文件夹’即可）生成EasyPubMed文件夹
 3. 打开chrome或edge浏览器，在导航栏输入chrome://extensions（Chrome浏览器）或edge://extensions（Edge浏览器），确保开发者模式打开，点击‘加载解压缩的扩展’按钮，选择EasyPubMed文件夹即可加载成功。
