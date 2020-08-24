@@ -3,20 +3,21 @@
 
 # EasyPubMed User Manual
 
-**EasyPubMed is a Chrome extension to make new PubMed easy to use.**
+**EasyPubMed is an extension to make new PubMed easy to use.**
 
-- [Functions and Features](#functions-and-features)
-- [Setup](#setup)
-- [Details](#details)
-  - [EasyPubMed Tool Bar](#easypubmed-tool-bar)
-  - [Popup Page](#popup-page)
-- [Data Source](#data-source)
-- [Disclaimer](#disclaimer)
-- [Privacy policy](#privacy-policy)
-- [Bug report and suggestion](#bug-report-and-suggestion)
-- [Donation](#donation)
-- [Developing story](#developing-story)
-- [Author](#author)
+- [EasyPubMed User Manual](#easypubmed-user-manual)
+  - [Functions and Features](#functions-and-features)
+  - [Setup](#setup)
+  - [Details](#details)
+    - [EasyPubMed Tool Bar](#easypubmed-tool-bar)
+    - [Popup Page](#popup-page)
+  - [Data Source](#data-source)
+  - [Disclaimer](#disclaimer)
+  - [Privacy policy](#privacy-policy)
+  - [Bug report and suggestion](#bug-report-and-suggestion)
+  - [Donation](#donation)
+  - [Developing story](#developing-story)
+  - [Author](#author)
 
 > Version 0.0.5 (2020.8.2) Update: [Update Log](https://github.com/naivenaive/EasyPubMed/blob/master/Update_log.md)
 > - More fix on display problem of impact factor and JCR quartile or CAS block in search mode due to the update of pubmed in 2020/7/17
