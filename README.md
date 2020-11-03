@@ -61,7 +61,7 @@
 
 ## 安装
 
-浏览器支持: Chrome, Edge,FireFox
+浏览器支持: Chrome, Edge
 
 目前Google及Edge应用商店均已通过应用商店安全审查，您可以通过Chrome及Edge商店直接添加此扩展0.0.5版本（采用2020年JCR数据）。欢迎[反馈](#错误报告及建议)
 
