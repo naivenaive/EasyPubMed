@@ -207,10 +207,10 @@
   - I. 选择翻译语言，默认翻译为Simplified Chinese（简体中文）。
 
 <p align="center">
-     <img src="md_image/toolbar2.png" width=80% />
+     <img src="md_image/toolbar2.png" width=50% />
 </p>
 <p align="center">
-     <img src="md_image/translation3.png" width=80% />
+     <img src="md_image/translation3.png" width=40% />
 </p>
 
 4. 打开PubMed杂志筛选助手
