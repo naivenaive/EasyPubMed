@@ -34,17 +34,22 @@
 <img src="md_image/image-20200622120034563.png" alt="image-20200621173353849" width=80% >
 </p>
 
-- EasyPubMed tool bar, Design for new PubMed
 
-- Rapid loading: use local database, average loading time <0.1s
-  
-- One click to get full-screen paper PDF without sidebar from Sci-Hub
 
-- Display journal impact factor (IF) 
+- **EasyPubMed tool bar, Design for new PubMed**
+  - Display abstract in PubMed search page
+  - One click to get full-screen paper PDF from Sci-Hub
+  - Display journal impact factor (IF) 
+  - Display JCR (Journal Citation Reports) journal's quartile ranking or CAS (Chinese Academy of Sciences) journal's block ranking
+  - Display citation counts
+- **Journal Filter Tools**
+  - Filter articles by Impact factor, JCR Quartile and citation counts...
+  - PubMed filter manager helps you select most related journals in your research field
+- **Translation**
+  - One click to translate article's title and abstract in PubMed
+  - Get translation is so easy: select the words and Press "T" 
+  - Multiple languages support
 
-- Display JCR (Journal Citation Reports) journal's quartile ranking or CAS (Chinese Academy of Sciences) journal's block ranking
-
-- BibTex support
 <p align="right">
 <a href="https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md#%E5%8A%9F%E8%83%BD%E7%89%B9%E8%89%B2">查看中文版：功能特色</a>
 <br>
@@ -175,7 +180,8 @@ The EasyPubMed extension and its developer take no responsibility for the data a
 ## Privacy policy
  This extenssion does not collect any personal identifying information. This extension uses the metadata about articles in PubMed website(https://pubmed.ncbi.nlm.nih.gov/)  the user browse and save the user's default options for using this extension (default sci-hub url and your preference to show JCR quartile or CAS block) in local storage. The following item may be considered personal information:
 
-- Information about the articles the user browse in PubMed website: The dois of the articles are analysed from the PubMed website the user browse and send back to the background page. In the background page, the dois are submitted to the user's selected sci-hub website (https://sci-hub.tw/, https://sci-hub.st/, https://sci-hub.se/, https://sci-hub.ee/,https://sci-hub.ren/) anonymously to fetch information about whether the full-text is available or not. The information is sent back to the front and display in the EasyPubMed toolbar by enabling or disabling the 'Full-text' button. No personal information is transmitted in the process.
+- Information about the articles the user browse in PubMed website: The dois of the articles are analysed from the PubMed website the user browse and send back to the background page. In the background page, the dois are submitted to the user's selected sci-hub website (https://sci-hub.st/, https://sci-hub.se/, https://sci-hub.ee/, https://sci-hub.do/, https://sci-hub.ren/, https://sci-hub.cc/, https://sci-hub.tw/, https://sci-hub.shop/) anonymously to fetch information about whether the full-text is available or not. The information is sent back to the front and display in the EasyPubMed toolbar by enabling or disabling the 'Full-text' button. No personal information is transmitted in the process.
+- The words selected for translation：The words selected for translation are sent back to the background to obtain the translation result from the translation website( https://cn.bing.com/dict/,https://translate.google.com/,https://translate.google.cn/). No personal information is transmitted in the process.
 
 We respect your data privacy. No personal information that can identify you is collected, shared, submitted or disclosed with any other party. Questions about data collection and privacy can be addressed to easypubmed.project@gmail.com.
 
