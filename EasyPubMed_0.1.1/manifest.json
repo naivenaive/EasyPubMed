@@ -1,0 +1,61 @@
+{
+  "name": "EasyPubMed",
+  "manifest_version": 2,
+  "version": "0.1.1",
+  "description": "Show Imapct Factor(IF), JCR quartile, CAS block on PubMed, full-text download and article information in Bibtex",
+  "short_name": "EP",
+  "icons": {
+    "16": "images/ep_16.png",
+    "48": "images/ep_48.png",
+    "128": "images/ep_128.png"
+  },
+  "browser_action": {
+    "default_icon": "images/ep_128.png",
+    "default_title": "EasyPubMed",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": [
+      "js/background.js"
+    ]
+  },
+  "content_security_policy": "script-src 'self' ; object-src 'self'",
+  "content_scripts": [
+    {
+      "js": [
+        "js/content-script.js"
+      ],
+      "css": [
+        "css/style.css"
+      ],
+      "matches": [
+        "*://pubmed.ncbi.nlm.nih.gov/*",
+        "https://*/*",
+        "http://*/*"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    "images/*.png",
+    "data/ifqbt_2020.json",
+    "css/style.css",
+    "pubmedFilter.html"
+  ],
+  "permissions": [
+    "storage",
+    "https://sci-hub.st/",
+    "https://sci-hub.se/",
+    "https://sci-hub.ee/",
+    "https://sci-hub.do/",
+    "https://sci-hub.ren/",
+    "https://sci-hub.cc/",
+    "https://sci-hub.tw/",
+    "https://sci-hub.shop/",
+    "https://cn.bing.com/dict/",
+    "https://translate.google.com/",
+    "https://translate.google.cn/",
+    "https://gitee.com/easypubmed/easypubmed/",
+    "https://www.ncbi.nlm.nih.gov/"
+  ]
+}
