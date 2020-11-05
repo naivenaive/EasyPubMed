@@ -184,7 +184,7 @@
 #### 通过定制PubMed过滤器进行杂志筛选
 - 通过点击[弹出界面](#option)-PubMed Filter Manger打开PubMed杂志筛选助手。
 - PubMed杂志筛选助手帮助您筛选您所在专业需重点关注的杂志，自动将杂志目录转化为PubMed过滤器检索式，并帮助您将检索式自动导入PubMed账号，以最大限度满足您对于杂志筛选需求。
-- 杂志筛选助手使用方法请参见<a href="https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%20User%20Manual.md#details">PubMed杂志筛选助手使用说明</a>
+- 杂志筛选助手使用方法请参见<a href="https://github.com/naivenaive/EasyPubMed/blob/master/PubMed%E6%9D%82%E5%BF%97%E7%AD%9B%E9%80%89%E5%8A%A9%E6%89%8B%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md">PubMed杂志筛选助手使用说明</a>
 
 ### 弹出页面
 
