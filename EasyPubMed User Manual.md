@@ -19,12 +19,11 @@
   - [Developing story](#developing-story)
   - [Author](#author)
 
-> Version 0.1.1 (2020.11.3) Update: [Update Log](https://github.com/naivenaive/EasyPubMed/blob/master/Update_log.md)
-> - New tools for filtering PubMed Journals 
-> - Translation
-> - Display abstract in PubMed search page
-> - Display citation counts in EasyPubMed tool bar
-> - Code restructuring using Vue
+> Version 0.0.5 (2020.8.2) Update: [Update Log](https://github.com/naivenaive/EasyPubMed/blob/master/Update_log.md)
+> - More fix on display problem of impact factor and JCR quartile or CAS block in search mode due to the update of pubmed in 2020/7/17
+> - Add https://sci-hub.ren into the sci-hub url lists as request by Xiaochen-Zhang99 
+> - Fix version display bug in popup page
+> 
 
 > Tips: Pressing the Ctrl key while clicking a link will automatically open the link in a new tab
 
