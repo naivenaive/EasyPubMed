@@ -166,7 +166,7 @@
 - ④ 为此文章设立标签（Tag），默认标签有Read、Go through reference、Discussion，点击输入框会弹出目前项目已设立标签并可选择，也可在输入框输入新的标签，点按回车或后方<span style="color:#33bea6">⊕</span>键加入标签。已设立的标签会在下方展示，**双击已加入标签可以将其删除**
 - ⑤ 为此文章进行星价，点击末端<span style="color:#33bea6">🗘</span>键可以重新评价
 - ⑥ 为此文章注释（note），如可输入备注信息
-- ⑦ 点击Collect键，此文章将被收集入EasyPubMed文献管理器（Reference Manager），可通过[弹出界面](#option)-Reference Manager进入文献管理器，详情参见[文献管理助手使用说明](!!)
+- ⑦ 点击Collect键，此文章将被收集入EasyPubMed文献管理器（Reference Manager），可通过[弹出界面](#option)-Reference Manager进入文献管理器，详情参见[文献管理助手使用说明](https://github.com/naivenaive/EasyPubMed/blob/master/%E6%96%87%E7%8C%AE%E7%AE%A1%E7%90%86%E5%8A%A9%E6%89%8B%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md)
 - ⑧ 点击Abandon键，放弃收集此篇文章
 
 ### 翻译功能
