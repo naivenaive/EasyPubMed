@@ -178,11 +178,17 @@ The EasyPubMed extension and its developer take no responsibility for the data a
 </p>
 
 ## Privacy policy
-This extenssion does not collect any personal identifying information. This extension uses the metadata about articles in PubMed website(https://pubmed.ncbi.nlm.nih.gov/)  the user browse and save the user's default options and reference information which is used by reference manager in local storage. The following item may be considered personal information:
+This extenssion does not collect any personal identifying information. This extension uses the metadata about articles in PubMed website(https://pubmed.ncbi.nlm.nih.gov/)  the user browse and save the user's default options and reference information which is used by reference manager in local storage. The following item may contain user's privacy information:
 
 - User experience improvment program: The webpage information of some websites you visit may be collected for further feature development which is aimed to improve user experience such as obataining full-text PDF. All data collected is sent anonymously and encrypted. No personal information that can identify you is collected, shared, submitted or disclosed with any other party. **You can quit user experience improvement program by disable the 'Help improve experience' switch in the popup page.** 
 - Information about the articles the user browse in PubMed website: The dois of the articles are analysed from the PubMed website the user browse and send back to the background page. In the background page, the dois are submitted to the user's selected sci-hub website (https://sci-hub.st/, https://sci-hub.se/, https://sci-hub.ee/, https://sci-hub.do/, https://sci-hub.ren/, https://sci-hub.cc/, https://sci-hub.tw/, https://sci-hub.shop/) anonymously to fetch information about whether the full-text is available or not. The information is sent back to the front and display in the EasyPubMed toolbar by enabling or disabling the 'Full-text' button. No personal information is transmitted in the process.
 - The words selected for translation：The words selected for translation are sent back to the background to obtain the translation result from the translation website( https://cn.bing.com/dict/,https://translate.google.com/,https://translate.google.cn/). No personal information is transmitted in the process.
+
+The extension needs following permissions:
+- Unlimited Storage Permission: The reference manager save user's reference in their local storage. Since most reference information is really large, the extension requires unlimited storage permission to save all reference information.
+- Downloads Permission: The reference manger helps user to download full-text PDF from website and save the PDF the EasyPubmed folder in a tidy way. Since most downloaded articles not named in an appropriate way, the extension requires downloads permission for renaming downloaded PDF. 
+- Clipboard Read Permission: The extension requires the clipboard read permission to help translate words in PDF. When the user select words in PDF and press Ctrl+C, the extension background read the clipboard, get the word selected and translate them into another language.
+- Clipboard Write Permission:The extension requires clipboard write permission to save information such reference in bibtex format into clipboard and help user to copy it to other software.
 
 We respect your data privacy. No personal information that can identify you is collected, shared, submitted or disclosed with any other party without your permission. Questions about data collection and privacy can be addressed to easypubmed.project@gmail.com.
 
