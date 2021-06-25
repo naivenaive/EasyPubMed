@@ -10,15 +10,16 @@
 [**如Github网站图片加载出现问题，可访问知乎获取相同内容**](https://zhuanlan.zhihu.com/p/150317440)
 
 > 更新至Version 0.1.5（2021.6）：[更新日志](https://github.com/naivenaive/EasyPubMed/blob/master/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.md)
-> - 支持网页过滤器
-> - PubMed杂志筛选助手
+> - 文献管理助手（Reference Manager）
 > - 增加PDF翻译功能
-> - 支持PubMed检索界面完整摘要展示
-> - 工具条中增加被引次数展示
-> - 使用vue架构对项目重构
+> - EasyPubMed工具条增加引用（Citation）和收藏（Collect）功能
+> - 使用最新JCR及中科院分区数据（2020年）
+> - 修复多个错误：如干扰网站弹窗、部分PubMed页面不显示EasyPubMed工具条
+
+
+> **寻找合作伙伴**：为了让更多国家科研工作者使用此插件，**现需将EasyPubMed使用说明翻译为英文版本**。但由于本人时间、精力及水平有限，无法独自完成EasyPubMed使用说明英文翻译工作。如果您有兴趣帮助翻译EasyPubMed使用说明，请联系<easypubmed.project@gmail.com>。感谢您的参与。
 
 **EasyPubMed makes New PubMed easy to use**
-
 
  [**EasyPubMed User Manual(English)**](https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%20User%20Manual.md)
 
@@ -48,7 +49,7 @@
 
 ## 功能特色
 <p align="center">
-<img src="md_image/translation1.gif" width=80% >
+<img src="md_image/0.1.5/demo.gif" width=80% >
 </p>
 
 - **专为新版PubMed设计的工具条——看摘要、找全文、收藏文献都不是问题**
