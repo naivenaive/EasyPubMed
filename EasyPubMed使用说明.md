@@ -53,20 +53,19 @@
 
 - **专为新版PubMed设计的工具条——看摘要、找全文、收藏文献都不是问题**
   - 一键点击从UnpayWall、Sci-Hub、Libgen多渠道获取全文PDF，找全文如此简单
-  - 一键收集PubMed文章，好文献随时收藏并支持做多种标记，如星价、旗标、贴标签、加备注
+  - 一键收集PubMed文章，好文献随时收藏并支持做多种标记，如星价、旗标、贴标签、写备注
+  -  展示最新（2020年）杂志影响因子、JCR分区、中科院分区及文章被引用次数
   - 获取文章10000+种参考文献引用格式，覆盖绝大多数SCI杂志
   - PubMed搜索界面展示完整摘要
-  - 展示最新（2020年）杂志影响因子、JCR分区、中科院分区及文章被引用次数
 - **文献管理助手——浏览器就能把文献管理得井井有条**
-  - 全文PDF批量下载
-  - 下载文献PDF自动重命名，乱码文件名从此消失
   - 文献分项目管理
-  - 文献附件（Supplementary Material）管理，附件再不丢失
-  - 沟通多种文献管理软件，文献导入、导出不再难
+  - 全文PDF批量下载
+  - 全文PDF自动重命名，乱码文件名从此消失
+  - 文献附件（Supplementary Material）管理，文献附件也保存得井井有条
 - **强大翻译功能——翻译竟然这么方便，文献阅读再没烦恼**
   - 一键翻译PubMed文章标题及摘要
   - 实时英文翻译 = 选中文字+“T”键
-  - PDF随时翻译=选中文字+“Ctrl+C”键
+  - 网页PDF随时翻译=选中文字+“Ctrl+C”键
 - **文献筛选助手——筛选高质量文献如此简单**
   - 支持根据杂志影响因子、分区、被引用次数等6种模式筛选文献
   - PubMed杂志筛选助手帮你筛选高质量杂志
@@ -82,7 +81,7 @@
 
 浏览器支持: Chrome, Edge
 
-目前Google及Edge应用商店均已通过应用商店安全审查，您可以通过Chrome及Edge商店添加此扩展0.0.5版本（**非最新0.1.1版本，目前正在审核阶段**）。
+目前Google及Edge应用商店均已通过应用商店安全审查，您可以通过Chrome及Edge商店添加此扩展0.1.1版本（**非最新0.1.5版本，目前正在审核阶段**）。
 
 - Edge版本地址为https://microsoftedge.microsoft.com/addons/detail/easypubmed/daibhooimgnmhjagkkjamadijfambhid
 
@@ -90,7 +89,7 @@
  
 如您觉得好用，希望您可以**在商店给予五星好评并留言**，这将有助于此项目的推广。
 
-最新版本EasyPubMed v0.1.1已上传至Github，目前您可以通过开发者模式使用。方法如下
+最新版本EasyPubMed v0.1.5已上传至Github，目前您可以通过开发者模式使用。方法如下
 1. 下载扩展插件: 点击此链接[EasyPubMed](https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed.zip)，点击download按钮下载EasyPubMed.zip文件。国内如无法下载可以通过此链接[EasyPubmed(国内)](https://easypubmed.coding.net/p/easypubmed/d/easypubmed/git/tree/master/EasyPubMed.zip)下载
 2. 解压缩EasyPubMed.zip文件（选择‘解压到当前文件夹’即可）生成EasyPubMed文件夹
 3. 打开chrome或edge浏览器，在导航栏输入chrome://extensions（Chrome浏览器）或edge://extensions（Edge浏览器），确保开发者模式打开，点击‘加载解压缩的扩展’按钮，选择EasyPubMed文件夹即可加载成功。
@@ -168,6 +167,10 @@
 - ⑥ 为此文章注释（note），如可输入备注信息
 - ⑦ 点击Collect键，此文章将被收集入EasyPubMed文献管理器（Reference Manager），可通过[弹出界面](#option)-Reference Manager进入文献管理器，详情参见[文献管理助手使用说明](https://github.com/naivenaive/EasyPubMed/blob/master/%E6%96%87%E7%8C%AE%E7%AE%A1%E7%90%86%E5%8A%A9%E6%89%8B%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md)
 - ⑧ 点击Abandon键，放弃收集此篇文章
+
+<p align="center">
+      <img src="md_image\reference_manager\pubmed_collect.gif" width=80% />
+</p>
 
 ### 翻译功能
 <p align="center">
@@ -389,7 +392,6 @@ EasyPubMed是完全免费的，但此扩展开发过程需要耗费很多的时�
 - 医学科普及医学教育
 - 医学统计及生物信息学，使用R、Python处理医学相关数据
 - 前端编程（JavaScript、CSS、HTML、Vue）开发扩展
-- 最近似乎对后端也产生了兴趣，比如用Django做后端框架
 
 >**如果您和我有相似的兴趣，或者您遇到困难觉得我的兴趣爱好可能对您有所帮助，或者您有一些兼职工作如医学材料翻译、医学科普制作等我可以帮助完成，亦或您单纯想同我聊一聊人生和希望，欢迎与我联系。**
 
