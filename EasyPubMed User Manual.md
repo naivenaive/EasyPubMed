@@ -178,12 +178,13 @@ The EasyPubMed extension and its developer take no responsibility for the data a
 </p>
 
 ## Privacy policy
- This extenssion does not collect any personal identifying information. This extension uses the metadata about articles in PubMed website(https://pubmed.ncbi.nlm.nih.gov/)  the user browse and save the user's default options for using this extension (default sci-hub url and your preference to show JCR quartile or CAS block) in local storage. The following item may be considered personal information:
+This extenssion does not collect any personal identifying information. This extension uses the metadata about articles in PubMed website(https://pubmed.ncbi.nlm.nih.gov/)  the user browse and save the user's default options and reference information which is used by reference manager in local storage. The following item may be considered personal information:
 
+- User experience improvment program: The webpage information of some websites you visit may be collected for further feature development which is aimed to improve user experience such as obataining full-text PDF. All data collected is sent anonymously and encrypted. No personal information that can identify you is collected, shared, submitted or disclosed with any other party. **You can quit user experience improvement program by disable the 'Help improve experience' switch in the popup page.** 
 - Information about the articles the user browse in PubMed website: The dois of the articles are analysed from the PubMed website the user browse and send back to the background page. In the background page, the dois are submitted to the user's selected sci-hub website (https://sci-hub.st/, https://sci-hub.se/, https://sci-hub.ee/, https://sci-hub.do/, https://sci-hub.ren/, https://sci-hub.cc/, https://sci-hub.tw/, https://sci-hub.shop/) anonymously to fetch information about whether the full-text is available or not. The information is sent back to the front and display in the EasyPubMed toolbar by enabling or disabling the 'Full-text' button. No personal information is transmitted in the process.
 - The words selected for translation：The words selected for translation are sent back to the background to obtain the translation result from the translation website( https://cn.bing.com/dict/,https://translate.google.com/,https://translate.google.cn/). No personal information is transmitted in the process.
 
-We respect your data privacy. No personal information that can identify you is collected, shared, submitted or disclosed with any other party. Questions about data collection and privacy can be addressed to easypubmed.project@gmail.com.
+We respect your data privacy. No personal information that can identify you is collected, shared, submitted or disclosed with any other party without your permission. Questions about data collection and privacy can be addressed to easypubmed.project@gmail.com.
 
 <p align="right">
 <a href="https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md#%E9%9A%90%E7%A7%81">查看中文版：隐私</a>
