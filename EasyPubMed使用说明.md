@@ -9,6 +9,9 @@
 
 [**如Github网站图片加载出现问题，可访问知乎获取相同内容**](https://zhuanlan.zhihu.com/p/150317440)
 
+> 更新至Version 0.1.6（2021.7）：[更新日志](https://github.com/naivenaive/EasyPubMed/blob/master/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.md)
+> - 使用2021年JCR数据（最新）及2020年中科院分区（最新）
+> 
 > 更新至Version 0.1.5（2021.6）：[更新日志](https://github.com/naivenaive/EasyPubMed/blob/master/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.md)
 > - 文献管理助手（Reference Manager）
 > - 增加PDF翻译功能
@@ -55,7 +58,7 @@
 - **专为新版PubMed设计的工具条——看摘要、找全文、收藏文献都不是问题**
   - 一键点击从UnpayWall、Sci-Hub、Libgen多渠道获取全文PDF，找全文如此简单
   - 一键收集PubMed文章，好文献随时收藏并支持做多种标记，如星价、旗标、贴标签、写备注
-  -  展示最新（2020年）杂志影响因子、JCR分区、中科院分区及文章被引用次数
+  -  展示最新杂志影响因子（2021年）、JCR分区（2021年）、中科院分区（2020年底）及文章被引用次数
   - 获取文章10000+种参考文献引用格式，覆盖绝大多数SCI杂志
   - PubMed搜索界面展示完整摘要
 - **文献管理助手——浏览器就能把文献管理得井井有条**
@@ -270,7 +273,7 @@
 3. 打开PubMed首页: https://pubmed.ncbi.nlm.nih.gov/
 4. 打开您设置的Sci-Hub网站首页：默认为 'https://sci-hub.st/
 5. 打开[Google翻译中文站](https://translate.google.cn/)
-6. 可在此处键入所要查询杂志的名称、缩写或ISSN、eISSN以检索杂志的信息。杂志信息包括杂志名称、缩写、ISSN，eISSN、是否被SCI收录、杂志影响因子，JCR分区[2020年]，CAS（中科院）分区[2019年]、是否为顶级刊物及杂志分类信息等。所有PubMed收录杂志信息均可在此处查询。
+6. 可在此处键入所要查询杂志的名称、缩写或ISSN、eISSN以检索杂志的信息。杂志信息包括杂志名称、缩写、ISSN，eISSN、是否被SCI收录、杂志影响因子，JCR分区[2021年]，CAS（中科院）分区[2020年底]、是否为顶级刊物及杂志分类信息等。所有PubMed收录杂志信息均可在此处查询。
 7.  词典功能，在此处键入单词以获取必应词典解释。
 8.  可在此处输入所寻找文章的PMID号、DOI或论文题目直接连接到Sci-Hub网站获取全文。在此处搜索与在Sci-Hub首页搜索所得结果是一致的。
 9.  查看EasyPubMed使用手册
