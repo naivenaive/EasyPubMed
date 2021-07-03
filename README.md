@@ -9,6 +9,9 @@
 
 [**如Github网站图片加载出现问题，可访问知乎获取相同内容**](https://zhuanlan.zhihu.com/p/150317440)
 
+> 更新至Version 0.1.7（2021.7）：[更新日志](https://github.com/naivenaive/EasyPubMed/blob/master/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.md)
+> - 修复几处bug
+> 
 > 更新至Version 0.1.6（2021.7）：[更新日志](https://github.com/naivenaive/EasyPubMed/blob/master/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.md)
 > - 使用2021年JCR数据（最新）及2020年中科院分区（最新）
 > 
@@ -41,6 +44,12 @@
       - [PubMed网页文献筛选](#pubmed网页文献筛选)
       - [通过定制PubMed过滤器进行杂志筛选](#通过定制pubmed过滤器进行杂志筛选)
     - [弹出页面](#弹出页面)
+  - [常见问题](#常见问题)
+    - [1. 翻译为什么一直显示‘Error’？](#1-翻译为什么一直显示error)
+    - [2. 是否有Safari版本、火狐版本？](#2-是否有safari版本火狐版本)
+    - [3. 为什么有的杂志影响因子、分区显示错误？](#3-为什么有的杂志影响因子分区显示错误)
+    - [4. 为什么EasyPubMed工具条所有的分区、IF信息都显示为‘NA’？](#4-为什么easypubmed工具条所有的分区if信息都显示为na)
+    - [5. 为什么点击Full-text PDF后，有的PDF在网页打开，有的会下载PDF？](#5-为什么点击full-text-pdf后有的pdf在网页打开有的会下载pdf)
   - [数据来源](#数据来源)
   - [声明](#声明)
   - [隐私](#隐私)
@@ -85,7 +94,7 @@
 
 浏览器支持: Chrome, Edge
 
-目前Google及Edge应用商店均已通过应用商店安全审查，您可以通过Chrome及Edge商店添加此扩展0.1.5版本（**非最新0.1.6版本，目前正在审核阶段**）。
+目前Google及Edge应用商店均已通过应用商店安全审查，您可以通过Chrome及Edge商店添加此扩展0.1.7版本（**非最新0.1.6版本，目前正在审核阶段**）。
 
 - Edge版本地址为https://microsoftedge.microsoft.com/addons/detail/easypubmed/daibhooimgnmhjagkkjamadijfambhid
 
@@ -94,7 +103,7 @@
 如您觉得好用，希望您可以**在商店给予五星好评并留言**，这将有助于此项目的推广。
 
 最新版本EasyPubMed v0.1.6已上传至Github，目前您可以通过开发者模式使用。方法如下
-1. 下载扩展插件: 点击此链接[EasyPubMed](https://github.com/naivenaive/EasyPubMed/raw/master/EasyPubMed_0.1.6.zip)，点击download按钮下载EasyPubMed.zip文件。国内如无法下载可以通过此链接[EasyPubmed(国内)](https://easypubmed.coding.net/p/easypubmed/d/easypubmed/git/raw/master/EasyPubMed_0.1.6.zip?download=true)下载
+1. 下载扩展插件: 点击此链接[EasyPubMed](https://github.com/naivenaive/EasyPubMed/raw/master/EasyPubMed_0.1.7.zip)，点击download按钮下载EasyPubMed.zip文件。国内如无法下载可以通过此链接[EasyPubmed(国内)](https://easypubmed.coding.net/p/easypubmed/d/easypubmed/git/raw/master/EasyPubMed_0.1.7.zip?download=true)下载
 2. 解压缩EasyPubMed.zip文件（选择‘解压到当前文件夹’即可）生成EasyPubMed文件夹
 3. 打开chrome或edge浏览器，在导航栏输入chrome://extensions（Chrome浏览器）或edge://extensions（Edge浏览器），**确保开发者模式打开**，点击‘加载解压缩的扩展’按钮，选择EasyPubMed文件夹即可加载成功。
 <p align="right">
@@ -287,9 +296,26 @@
 <a href="#top">回到顶部</a>
 </p>
 
+## 常见问题
+
+### 1. 翻译为什么一直显示‘Error’？
+目前EasyPubMed插件使用Google翻译及Bing词典功能提供翻译结果。由于Google已经退出中国，因此其服务并不稳定，有可能会某些时间段无法使用。请耐心等待一段时间，功能通常会自行恢复。目前市面市面绝大多翻译服务均是需要付费使用，google翻译是目前可及翻译效果最好、免费的翻译工具，望各位理解。
+
+### 2. 是否有Safari版本、火狐版本？
+由于本人没有苹果电脑，因此开发Safari版本存在困难。苹果电脑可以安装Chrome浏览器使用EasyPubMed插件。火狐浏览器内核与Chrome和Edge有一些差异，开发需要对代码进行较多更改，短期内并没有计划提供这两个版本。如果你希望在上述平台开发类似插件，可以联系我，我将提供必要的帮助。
+
+### 3. 为什么有的杂志影响因子、分区显示错误？
+EasyPubMed插件内核数据采用杂志唯一的ISSN编号将Pubmed数据库杂志信息、JCR报告、中科院（CAS）文献情报分区表合并。由于合并过程中存在误差因而造成错误，如果您发现可以联系我。
+
+### 4. 为什么EasyPubMed工具条所有的分区、IF信息都显示为‘NA’？
+如果你的浏览器同时安装其他类似工具如Scholarscope，其可能会与EasyPubMed造成冲突，因而导致信息无法正常显示。建议可通过以下两种方法解决：1. 暂时关闭其他插件如Scholarscope，后再次打开。2.卸载其他插件。如问题仍无法解决，可以联系我。
+
+### 5. 为什么点击Full-text PDF后，有的PDF在网页打开，有的会下载PDF？
+EasyPubMed可以帮助从Unpaywall、Sci-hub、Libgen等多更疲态获取全文。由于各平台设置不同，因此有的PDF是在网页中打开，有的是自动下载PDF。
+
 ## 数据来源
 
-采用杂志唯一的ISSN编号将Pubmed数据库杂志信息、2020年JCR报告、2020年12月发布的中科院（CAS）文献情报分区表合并。我们采用Pubmed杂志缩写获取各杂志的影响因子、JCR分区及CAS分区。结果已经过手动核查。但由于JCR及CAS报告可能错误的将eISSN用作ISSN，因此合并过程可能出现错误。请注意目前杂志筛选助手及弹出页面所查询数据仍使用2019年CAS分区报表数据。如果您发现数据有误，您可以通过发送邮件到<easypubmed.project@gmail.com>或在<https://github.com/naivenaive/EasyPubMed/issues>中发起新提议以将错误信息报告给我们. 
+采用杂志唯一的ISSN编号将Pubmed数据库杂志信息、2021年JCR报告、2020年12月发布的中科院（CAS）文献情报分区表合并。我们采用Pubmed杂志缩写获取各杂志的影响因子、JCR分区及CAS分区。结果已经过手动核查。由于合并过程可能出现错误，如果您发现数据有误，您可以通过发送邮件到<easypubmed.project@gmail.com>或在<https://github.com/naivenaive/EasyPubMed/issues>中发起新提议以将错误信息报告给我们. 
 
 <p align="right">
 <a href="https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%20User%20Manual.md#data-source">English version: Data source</a>
