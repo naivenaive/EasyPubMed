@@ -85,7 +85,7 @@
 
 浏览器支持: Chrome, Edge
 
-目前Google及Edge应用商店均已通过应用商店安全审查，您可以通过Chrome及Edge商店添加此扩展0.1.7版本（**非最新0.1.8版本，目前正在审核阶段**）。
+目前Google及Edge应用商店均已通过应用商店安全审查，您可以通过Chrome及Edge商店添加此扩展0.1.8版本。
 
 - Edge版本地址为https://microsoftedge.microsoft.com/addons/detail/easypubmed/daibhooimgnmhjagkkjamadijfambhid
 
