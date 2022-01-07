@@ -19,11 +19,7 @@
   - [Developing story](#developing-story)
   - [Author](#author)
 
-> Version 0.0.5 (2020.8.2) Update: [Update Log](https://github.com/naivenaive/EasyPubMed/blob/master/Update_log.md)
-> - More fix on display problem of impact factor and JCR quartile or CAS block in search mode due to the update of pubmed in 2020/7/17
-> - Add https://sci-hub.ren into the sci-hub url lists as request by Xiaochen-Zhang99 
-> - Fix version display bug in popup page
-> 
+> EasyPubMed use **DeepL** translation service for users in China to get translation results. DeepL is a very excellent translation software, which provides free translation service via DeepL website and API service. Since the offical API service of DeepL is unaccessible in China, the translation results are currently obtained by a program imitating the webpage translation process. **If DeepL does not agree with the current method, please contact easypubmed.project@gmail.com, we will delete this translation service immediately.**
 
 > Tips: Pressing the Ctrl key while clicking a link will automatically open the link in a new tab
 
@@ -33,7 +29,6 @@
 <p align="left">
 <img src="md_image/image-20200622120034563.png" alt="image-20200621173353849" width=80% >
 </p>
-
 
 
 - **EasyPubMed tool bar, Design for new PubMed**
