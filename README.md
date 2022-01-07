@@ -9,8 +9,11 @@
 
 [**如Github网站图片加载出现问题，可访问知乎获取相同内容**](https://zhuanlan.zhihu.com/p/150317440)
 
-> 更新至Version 0.1.8（2021.9.8）：[更新日志](https://github.com/naivenaive/EasyPubMed/blob/master/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.md)
-> - 支持最新Sci-Hub
+> 更新至Version 0.1.9（2021.12.30）：[更新日志](https://github.com/naivenaive/EasyPubMed/blob/master/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.md)
+> - 修复翻译功能
+> - 更新最新2021年中科院分区
+> - 增加探测器功能
+> - 优化加载速度
 > - 修复几处bug
 
 
@@ -94,7 +97,7 @@
 如您觉得好用，希望您可以**在商店给予五星好评并留言**，这将有助于此项目的推广。
 
 最新版本EasyPubMed v0.1.8已上传至Github，目前您可以通过开发者模式使用。方法如下
-1. 下载扩展插件: 点击此链接[EasyPubMed](https://github.com/naivenaive/EasyPubMed/raw/master/EasyPubMed_0.1.8.zip)，点击download按钮下载EasyPubMed.zip文件。国内如无法下载可以通过此链接[EasyPubmed(国内)](https://easypubmed.coding.net/p/easypubmed/d/easypubmed/git/raw/master/EasyPubMed_0.1.8.zip?download=true)下载
+1. 下载扩展插件: 点击此链接[EasyPubMed](https://github.com/naivenaive/EasyPubMed/raw/master/EasyPubMed_0.1.8.zip)，点击download按钮下载EasyPubMed.zip文件。国内如无法下载可以通过此链接[EasyPubmed(国内)](https://easypubmed.coding.net/p/easypubmed/d/easypubmed/git/raw/master/EasyPubMed_0.1.9.zip?download=true)下载
 2. 解压缩EasyPubMed.zip文件（选择‘解压到当前文件夹’即可）生成EasyPubMed文件夹
 3. 打开chrome或edge浏览器，在导航栏输入chrome://extensions（Chrome浏览器）或edge://extensions（Edge浏览器），**确保开发者模式打开**，点击‘加载解压缩的扩展’按钮，选择EasyPubMed文件夹即可加载成功。
 <p align="right">
@@ -121,7 +124,7 @@
 
     <img src="md_image/image-20200621180515339.png" alt="image-20200621180515339" width=20% />
 
-   - CAS分区：采用2019年12月26日发布的中科院（CAS）文献情报分区表，所显示的分区为该杂志在所用学科类别中的最佳排名。我们采用B1、B2、B3、B4表示该杂志在1区、2区、3区、4区。不同分区杂志采用不同颜色标注，B1标注为红色，B1标注为黄色，B3标注为绿色，B4标注为灰色。NA表示该杂志未被收录。
+   - CAS分区：采用2021年12月发布的中科院（CAS）文献情报分区表，所显示的分区为该杂志在所用学科类别中的最佳排名。我们采用B1、B2、B3、B4表示该杂志在1区、2区、3区、4区。不同分区杂志采用不同颜色标注，B1标注为红色，B1标注为黄色，B3标注为绿色，B4标注为灰色。NA表示该杂志未被收录。
 
     <img src="md_image/image-20200621181012739.png" alt="image-20200621181012739" width=20% />
 
@@ -273,7 +276,7 @@
 3. 打开PubMed首页: https://pubmed.ncbi.nlm.nih.gov/
 4. 打开您设置的Sci-Hub网站首页：默认为 'https://sci-hub.st/
 5. 打开[Google翻译中文站](https://translate.google.cn/)
-6. 可在此处键入所要查询杂志的名称、缩写或ISSN、eISSN以检索杂志的信息。杂志信息包括杂志名称、缩写、ISSN，eISSN、是否被SCI收录、杂志影响因子，JCR分区[2021年]，CAS（中科院）分区[2020年底]、是否为顶级刊物及杂志分类信息等。所有PubMed收录杂志信息均可在此处查询。
+6. 可在此处键入所要查询杂志的名称、缩写或ISSN、eISSN以检索杂志的信息。杂志信息包括杂志名称、缩写、ISSN，eISSN、是否被SCI收录、杂志影响因子，JCR分区[2021年]，CAS（中科院）分区[2021年底]、是否为顶级刊物及杂志分类信息等。所有PubMed收录杂志信息均可在此处查询。
 7.  词典功能，在此处键入单词以获取必应词典解释。
 8.  可在此处输入所寻找文章的PMID号、DOI或论文题目直接连接到Sci-Hub网站获取全文。在此处搜索与在Sci-Hub首页搜索所得结果是一致的。
 9.  查看EasyPubMed使用手册
