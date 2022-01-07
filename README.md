@@ -88,7 +88,7 @@
 
 浏览器支持: Chrome, Edge
 
-目前Google及Edge应用商店均已通过应用商店安全审查，您可以通过Chrome及Edge商店添加此扩展0.1.8版本。
+目前Google及Edge应用商店均已通过应用商店安全审查，您可以通过Chrome及Edge商店添加此扩展0.1.11版本。
 
 - Edge版本地址为https://microsoftedge.microsoft.com/addons/detail/easypubmed/daibhooimgnmhjagkkjamadijfambhid
 
@@ -96,7 +96,7 @@
  
 如您觉得好用，希望您可以**在商店给予五星好评并留言**，这将有助于此项目的推广。
 
-最新版本EasyPubMed v0.1.8已上传至Github，目前您可以通过开发者模式使用。方法如下
+最新版本EasyPubMed v0.1.11已上传至Github，目前您可以通过开发者模式使用。方法如下
 1. 下载扩展插件: 点击此链接[EasyPubMed](https://github.com/naivenaive/EasyPubMed/raw/master/EasyPubMed_0.1.8.zip)，点击download按钮下载EasyPubMed.zip文件。国内如无法下载可以通过此链接[EasyPubmed(国内)](https://easypubmed.coding.net/p/easypubmed/d/easypubmed/git/raw/master/EasyPubMed_0.1.9.zip?download=true)下载
 2. 解压缩EasyPubMed.zip文件（选择‘解压到当前文件夹’即可）生成EasyPubMed文件夹
 3. 打开chrome或edge浏览器，在导航栏输入chrome://extensions（Chrome浏览器）或edge://extensions（Edge浏览器），**确保开发者模式打开**，点击‘加载解压缩的扩展’按钮，选择EasyPubMed文件夹即可加载成功。
