@@ -9,12 +9,12 @@
 
 [**如Github网站图片加载出现问题，可访问知乎获取相同内容**](https://zhuanlan.zhihu.com/p/150317440)
 
-> 更新至Version 0.1.11（2022.1.7）：[更新日志](https://github.com/naivenaive/EasyPubMed/blob/master/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.md)
+> 更新至Version 0.1.12（2022.1.26）：[更新日志](https://github.com/naivenaive/EasyPubMed/blob/master/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.md)
 > - 修复翻译功能
 > - 更新最新2021年中科院分区
 > - 增加探测器功能
 > - 优化加载速度
-> - 修复几处bug
+> - 修复国内PubMed加载慢的问题
 
 > 关于翻译的说明：目前中国境内翻译采用的是deepl翻译接口。deepl是非常优秀的翻译软件，提供免费的网页版翻译功能及个人api接口。但由于其尚未开放中国api接口，目前翻译结果是通过模仿网页翻译而获取的。**如果deepl公司认为目前获取翻译接口的方法侵害其公司利益，请联系插件开发团队easypubmed.project@gmail.com,我们将删除该功能。**
 
