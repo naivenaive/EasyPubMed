@@ -7,7 +7,7 @@
         "https://sci-hub.st/",
         "https://sci-hub.se/"
     ],
-    "latest_version":"0.1.11",
+    "latest_version":"0.1.12",
      "latest_version_url":"https://github.com/naivenaive/EasyPubMed#%E5%AE%89%E8%A3%85",
     "info":"如果出现网页加载速度慢或卡住情况，请点击'More Options'并关闭'Enable Detector'选项,开发者正在积极维护此功能",
     "info_old_version":"更新0.1.11版本，修复翻译功能，支持2021最新中科院分区查询",
