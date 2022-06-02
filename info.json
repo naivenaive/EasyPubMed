@@ -1,0 +1,17 @@
+{
+    "exclude_url":[
+        "https://sci-hub.tw/",
+        "https://sci-hub.cc/"
+    ],
+    "recommend_url":[
+        "https://sci-hub.st/",
+        "https://sci-hub.se/"
+    ],
+    "latest_version":"0.1.11",
+     "latest_version_url":"https://github.com/naivenaive/EasyPubMed#%E5%AE%89%E8%A3%85",
+    "info":"如果出现网页加载速度慢或卡住情况，请点击'More Options'并关闭'Enable Detector'选项,开发者正在积极维护此功能",
+    "info_old_version":"更新0.1.11版本，修复翻译功能，支持2021最新中科院分区查询",
+    "cip":"",
+    "blockUrl":["https://www.google.com/recaptcha/enterprise.js?render=*"],
+    "test":"Pubmed Update cause problem, it will be fixed soon. Please pay attention to the latest release.由于Pubmed更新使插件使用出现一些问题，我已收到相关汇报，将尽快解决，请关注最新版本更新。如发现新问题欢迎通过下方Bug Report按钮反馈.I have fixed the problem. Please update to the latest version.我已经修复了这一问题，请更新到最新版本使用,https://github.com/naivenaive/EasyPubMed#%E5%AE%89%E8%A3%85"
+}
