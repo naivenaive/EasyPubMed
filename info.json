@@ -1,18 +1,20 @@
 {
-    "exclude_url":[
+    "exclude_url": [
         "https://sci-hub.tw/",
         "https://sci-hub.cc/"
     ],
-    "recommend_url":[
+    "recommend_url": [
         "https://sci-hub.st/",
         "https://sci-hub.se/",
         "https://sci-hub.ru/"
     ],
-    "latest_version":"0.1.13",
-     "latest_version_url":"https://github.com/naivenaive/EasyPubMed",
-    "info":"如果在界面输入过程中反复弹出翻译弹窗，请关闭Enable Translation，该问题将被尽快修复",
-    "info_old_version":"更新0.1.13版本，支持2022最新JCR分区查询,支持6种翻译引擎，支持Endnote文献格式导出",
-    "cip":"",
-    "blockUrl":["https://www.google.com/recaptcha/enterprise.js?render=*"],
-    "test":"Pubmed Update cause problem, it will be fixed soon. Please pay attention to the latest release.由于Pubmed更新使插件使用出现一些问题，我已收到相关汇报，将尽快解决，请关注最新版本更新。如发现新问题欢迎通过下方Bug Report按钮反馈.I have fixed the problem. Please update to the latest version.我已经修复了这一问题，请更新到最新版本使用,https://github.com/naivenaive/EasyPubMed#%E5%AE%89%E8%A3%85"
+    "latest_version": "0.1.14",
+    "latest_version_url": "https://github.com/naivenaive/EasyPubMed",
+    "info": "",
+    "info_old_version": "更新0.1.14版本，支持2022最新JCR分区查询,支持6种翻译引擎，支持Endnote文献格式导出",
+    "cip": "",
+    "blockUrl": [
+        "https://www.google.com/recaptcha/enterprise.js?render=*"
+    ],
+    "test": "Pubmed Update cause problem, it will be fixed soon. Please pay attention to the latest release.由于Pubmed更新使插件使用出现一些问题，我已收到相关汇报，将尽快解决，请关注最新版本更新。如发现新问题欢迎通过下方Bug Report按钮反馈.I have fixed the problem. Please update to the latest version.我已经修复了这一问题，请更新到最新版本使用,https://github.com/naivenaive/EasyPubMed#%E5%AE%89%E8%A3%85"
 }
