@@ -10,7 +10,7 @@
     ],
     "latest_version": "0.1.14",
     "latest_version_url": "https://github.com/naivenaive/EasyPubMed",
-    "info": "",
+    "info": "由于PubMed更新，搜索界面摘要展示尖头被屏蔽，EasyPubmed将尽快更新修复！",
     "info_old_version": "更新0.1.14版本，支持2022最新JCR分区查询,支持6种翻译引擎，支持Endnote文献格式导出",
     "cip": "",
     "blockUrl": [
