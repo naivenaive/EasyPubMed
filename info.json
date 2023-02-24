@@ -6,12 +6,13 @@
     "recommend_url": [
         "https://sci-hub.st/",
         "https://sci-hub.se/",
-        "https://sci-hub.ru/"
+        "https://sci-hub.ru/",
+        "https://sci-hub.wf/"
     ],
-    "latest_version": "0.1.14",
+    "latest_version": "0.1.16",
     "latest_version_url": "https://github.com/naivenaive/EasyPubMed",
-    "info": "由于PubMed更新，搜索界面摘要展示箭头被屏蔽，EasyPubmed将尽快修复此问题！",
-    "info_old_version": "更新0.1.14版本，支持2022最新JCR分区查询,支持6种翻译引擎，支持Endnote文献格式导出",
+    "info": "0.1.15版本可能引起部分网站内存崩溃或验证码无法识别问题，请点击右上角EP标签并关闭Enable Detector选项,0.1.16版本已修复此问题.Some problem related to memory and verification code may exist in version 0.1.15. Please disable 'Enable Detector' in the popup menu or update to 0.1.16",
+    "info_old_version": "更新0.1.16版本，支持2022最新中科院分区，任何网页探测文献标识号并展示影像因子及分区",
     "cip": "",
     "blockUrl": [
         "https://www.google.com/recaptcha/enterprise.js?render=*"
