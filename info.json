@@ -9,7 +9,7 @@
         "https://sci-hub.ru/",
         "https://sci-hub.wf/"
     ],
-    "latest_version": "0.1.16",
+    "latest_version": "0.1.15",
     "latest_version_url": "https://github.com/naivenaive/EasyPubMed",
     "info": "0.1.15版本可能引起部分网站内存崩溃或验证码无法识别，请点击右上角EP标签并关闭Enable Detector选项或升级至0.1.16版本修复此问题. Some problem related to memory and verification code may exist in version 0.1.15. Please disable 'Enable Detector' in the popup menu or update to 0.1.16.",
     "info_old_version": "更新0.1.16版本，支持2022最新中科院分区，任何网页探测文献标识号并展示影像因子及分区",
