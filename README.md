@@ -11,12 +11,12 @@
 
 > 更新至Version 0.1.14（2022.6.30）：[更新日志](https://github.com/naivenaive/EasyPubMed/blob/master/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.md)
 > - 更新最新2022年影响因子及JCR分区
-> - 翻译功能增强，支持六种翻译引擎（google、bing、百度、腾讯、彩云小译、deepl）
+> - 翻译功能增强，支持六种翻译引擎（棵岩翻译、google、百度、彩云小译、deepl）
 > - 优化过滤器
 > - 支持Endnote文献格式导出
 > - 修复已知bug
 
-> 关于翻译的说明：目前版本支持google、bing、百度、腾讯、彩云小译、deepl翻译引擎，翻译结果采用类似模仿网页翻译的方式而获取。部分翻译相关代码源自开源项目[EdgeTranslate](https://github.com/EdgeTranslate)。**如果上述翻译引擎提供商认为目前获取翻译接口的方法侵害其公司利益，请联系插件开发团队easypubmed.project@gmail.com,我们将删除该功能。**
+> 关于翻译的说明：目前版本支持棵岩翻译、google、百度、彩云小译、deepl翻译引擎，翻译结果采用类似模仿网页翻译的方式而获取。部分翻译相关代码源自开源项目[EdgeTranslate](https://github.com/EdgeTranslate)。**如果上述翻译引擎提供商认为目前获取翻译接口的方法侵害其公司利益，请联系插件开发团队easypubmed.project@gmail.com,我们将删除该功能。**
 
 > **寻找合作伙伴**：为了让更多国家科研工作者使用此插件，**现需将EasyPubMed使用说明翻译为英文版本**。但由于本人时间、精力及水平有限，无法独自完成EasyPubMed使用说明英文翻译工作。如果您有兴趣帮助翻译EasyPubMed使用说明，请联系<easypubmed.project@gmail.com>。感谢您的参与。
 
