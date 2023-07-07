@@ -363,7 +363,7 @@ EasyPubMed可以帮助从Unpaywall、Sci-hub等多更疲态获取全文。由于
 
 ## 数据来源
 
-采用杂志唯一的ISSN编号将Pubmed数据库杂志信息、2022年JCR报告（SSCI、SCIE）、2021年12月发布的中科院（CAS）文献情报分区表增强版合并。我们采用Pubmed杂志缩写获取各杂志的影响因子、JCR分区及CAS分区。结果已经过手动核查。由于合并过程可能出现错误，如果您发现数据有误，您可以通过发送邮件到<easypubmed.project@gmail.com>或在<https://github.com/naivenaive/EasyPubMed/issues>中发起新提议以将错误信息报告给我们. 
+采用杂志唯一的ISSN编号将Pubmed数据库杂志信息、2023年JCR报告（SSCI、SCIE）、2022年12月发布的中科院（CAS）文献情报分区表增强版合并。我们采用Pubmed杂志缩写获取各杂志的影响因子、JCR分区及CAS分区。结果已经过手动核查。由于合并过程可能出现错误，如果您发现数据有误，您可以通过发送邮件到<easypubmed.project@gmail.com>或在<https://github.com/naivenaive/EasyPubMed/issues>中发起新提议以将错误信息报告给我们. 
 
 <p align="right">
 <a href="https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%20User%20Manual.md#data-source">English version: Data source</a>
