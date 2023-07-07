@@ -9,12 +9,8 @@
 
 [**如Github网站图片加载出现问题，可访问知乎获取相同内容**](https://zhuanlan.zhihu.com/p/150317440)
 
-> 更新至Version 0.1.14（2022.6.30）：[更新日志](https://github.com/naivenaive/EasyPubMed/blob/master/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.md)
-> - 更新最新2022年影响因子及JCR分区
-> - 翻译功能增强，支持六种翻译引擎（棵岩翻译、google、百度、彩云小译、deepl）
-> - 优化过滤器
-> - 支持Endnote文献格式导出
-> - 修复已知bug
+> 更新至Version 0.1.17（2023.7.7）：[更新日志](https://github.com/naivenaive/EasyPubMed/blob/master/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.md)
+> - 更新最新2023年影响因子及JCR分区
 
 > 关于翻译的说明：目前版本支持棵岩翻译、google、百度、彩云小译、deepl翻译引擎，翻译结果采用类似模仿网页翻译的方式而获取。部分翻译相关代码源自开源项目[EdgeTranslate](https://github.com/EdgeTranslate)。**如果上述翻译引擎提供商认为目前获取翻译接口的方法侵害其公司利益，请联系插件开发团队easypubmed.project@gmail.com,我们将删除该功能。**
 
@@ -65,7 +61,7 @@
 - **专为新版PubMed设计的工具条——看摘要、找全文、收藏文献**
   - 一键点击从UnpayWall、Sci-Hub多渠道获取全文PDF，找全文如此简单
   - 一键收集PubMed文章，好文献随时收藏并支持做多种标记，如星价、旗标、贴标签、写备注
-  -  展示最新杂志影响因子（2022年）、JCR分区（2022年）、中科院分区（2021年底）及文章被引用次数
+  -  展示最新杂志影响因子（2023年）、JCR分区（2023年）、中科院分区（2022年底）及文章被引用次数
   - 获取文章10000+种参考文献引用格式，覆盖绝大多数SCI杂志
   - 一键导出文献，方便导入Endnote
   - PubMed搜索界面展示完整摘要
