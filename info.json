@@ -9,10 +9,10 @@
         "https://sci-hub.ru/",
         "https://sci-hub.wf/"
     ],
-    "latest_version": "0.1.15",
+    "latest_version": "0.1.17",
     "latest_version_url": "https://github.com/naivenaive/EasyPubMed",
     "info": "",
-    "info_old_version": "0.1.15版本可能引起部分网站内存崩溃或验证码无法识别，请点击右上角EP标签并关闭Enable Detector选项或升级至0.1.16版本修复此问题. Some problem related to memory and verification code may exist in version 0.1.15. Please disable 'Enable Detector' in the popup menu or update to 0.1.16.",
+    "info_old_version": "",
     "cip": "",
     "blockUrl": [
         "https://www.google.com/recaptcha/enterprise.js?render=*"
