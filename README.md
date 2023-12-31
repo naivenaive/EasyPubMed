@@ -10,7 +10,8 @@
 [**如Github网站图片加载出现问题，可访问知乎获取相同内容**](https://zhuanlan.zhihu.com/p/150317440)
 
 > 更新至Version 0.1.20（2023.12.31）：[更新日志](https://github.com/naivenaive/EasyPubMed/blob/master/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.md)
-> - 更新最新2023年中科院分区、JCR分区及影响因子
+> - 更新最新2023年中科院（CAS）分区、JCR分区及影响因子
+> - 支持同时展示JCR及中科院（CAS）分区
 > - 展示近五年IF趋势
 > - 一键截屏PubMed网站头部信息
 
@@ -127,11 +128,11 @@
 
 2. 显示杂志JCR分区或中科院分区（可在[弹出界面](#option)设置）
 
-   - JCR分区: 采用最新2020年 *Journal Citation Reports*数据，所显示的分区为该杂志在SCIE所用学科类别中的最佳排名。 比如，该杂志在A学科中排名Q1，在B学科中排名Q3，那么依据其最佳排名该杂志被标注为Q1。不同分区杂志采用不同颜色标注，Q1标注为红色，Q1标注为黄色，Q3标注为绿色，Q4标注为灰色。NA表示该杂志未被收录。
+   - JCR分区: 采用最新2023年 *Journal Citation Reports*数据，所显示的分区为该杂志在SCIE所用学科类别中的最佳排名。 比如，该杂志在A学科中排名Q1，在B学科中排名Q3，那么依据其最佳排名该杂志被标注为Q1。不同分区杂志采用不同颜色标注，Q1标注为红色，Q1标注为黄色，Q3标注为绿色，Q4标注为灰色。NA表示该杂志未被收录。
 
     <img src="md_image/image-20200621180515339.png" alt="image-20200621180515339" width=20% />
 
-   - CAS分区：采用2021年12月发布的中科院（CAS）文献情报分区表，所显示的分区为该杂志在所用学科类别中的最佳排名。我们采用B1、B2、B3、B4表示该杂志在1区、2区、3区、4区。不同分区杂志采用不同颜色标注，B1标注为红色，B1标注为黄色，B3标注为绿色，B4标注为灰色。NA表示该杂志未被收录。
+   - CAS分区：采用2023年12月发布的中科院（CAS）文献情报分区表，所显示的分区为该杂志在所用学科类别中的最佳排名。我们采用B1、B2、B3、B4表示该杂志在1区、2区、3区、4区。不同分区杂志采用不同颜色标注，B1标注为红色，B1标注为黄色，B3标注为绿色，B4标注为灰色。NA表示该杂志未被收录。
 
     <img src="md_image/image-20200621181012739.png" alt="image-20200621181012739" width=20% />
 
@@ -295,7 +296,7 @@
 1. 设置默认Sci-Hub地址，默认为 https://sci-hub.st/. 您可以在 https://sci-hub.st/, https://sci-hub.se/,  https://sci-hub.ru/,https://sci-hub.ee/, https://sci-hub.do/, https://sci-hub.ren/, https://sci-hub.cc/, https://sci-hub.tw/, https://sci-hub.shop/ 中选择合适的Sci-Hub地址。当你发现所有的文章均无法获取全文时，请在此处尝试更改Sci-Hub地址以解决。
 2. 如您不知道目前可以选择哪个Sci-Hub网站时，您可点击此处获取推荐的Sci-Hub网站列表
 3. <a id="option"></a> 点击More Options设置更多参数：
-- A、B. 选择展示JCR分区或CAS分区。如果一种方法被激活，另一种分区方法将自动关闭。默认采用JCR分区。
+- A、B. 选择展示JCR分区或CAS分区。默认采用JCR分区。
 - C. 激活EasyPubMed过滤功能
 - D. 激活探测器功能
 - E. 调整EasyPubMed工具条至上方，激活效果如下
