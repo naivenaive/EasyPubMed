@@ -9,8 +9,8 @@
 
 [**如Github网站图片加载出现问题，可访问知乎获取相同内容**](https://zhuanlan.zhihu.com/p/150317440)
 
-> 更新至Version 0.1.19（2023.9.12）：[更新日志](https://github.com/naivenaive/EasyPubMed/blob/master/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.md)
-> - 更新最新2023年影响因子及JCR分区
+> 更新至Version 0.1.20（2023.12.31）：[更新日志](https://github.com/naivenaive/EasyPubMed/blob/master/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.md)
+> - 更新最新2023年中科院分区、JCR分区及影响因子
 > - 展示近五年IF趋势
 > - 一键截屏PubMed网站头部信息
 
@@ -63,7 +63,7 @@
 - **专为新版PubMed设计的工具条——看摘要、找全文、收藏文献**
   - 一键点击从UnpayWall、Sci-Hub多渠道获取全文PDF，找全文如此简单
   - 一键收集PubMed文章，好文献随时收藏并支持做多种标记，如星价、旗标、贴标签、写备注
-  -  展示最新杂志影响因子（2023年）、JCR分区（2023年）、中科院分区（2022年底）及文章被引用次数
+  -  展示最新杂志影响因子（2023年）、JCR分区（2023年）、中科院分区（2023年）及文章被引用次数
   - 获取文章10000+种参考文献引用格式，覆盖绝大多数SCI杂志
   - 一键导出文献，方便导入Endnote
   - PubMed搜索界面展示完整摘要
@@ -104,7 +104,7 @@
 如您觉得好用，希望您可以**在商店给予五星好评并留言**，这将有助于此项目的推广。
 
 如使用其他Chromium内核浏览器（如360极速浏览器），请按如下方法安装：
-1. 下载扩展插件: 点击[此链接](https://easypubmed.vercel.app/EasyPubMed_0.1.14.zip)或[百度网盘](https://pan.baidu.com/s/1t9-XfBwx_G-fvFk6jTsNBQ?pwd=1dqc)下载EasyPubMed
+1. 下载扩展插件: 点击[此链接](https://easypubmed.vercel.app/EasyPubMed_0.1.20.zip)或[百度网盘](https://pan.baidu.com/s/1j8yqHONQ-ecEqRVs8V_znw?pwd=k8v0)下载EasyPubMed
 2. 解压缩EasyPubMed.zip文件生成EasyPubMed文件夹
 3. 打开chrome或edge浏览器，在导航栏输入chrome://extensions（Chrome浏览器）或edge://extensions（Edge浏览器），**确保开发者模式打开**，点击‘加载解压缩的扩展’按钮，选择EasyPubMed文件夹即可加载成功。
 <p align="right">
@@ -346,10 +346,10 @@
 ## 常见问题
 
 ### 1. 翻译为什么一直显示‘Error’？
-目前EasyPubMed插件使用Google翻译及Bing词典功能提供翻译结果。由于Google已经退出中国，因此其服务并不稳定，有可能会某些时间段无法使用。请耐心等待一段时间，功能通常会自行恢复。目前市面市面绝大多翻译服务均是需要付费使用，google翻译是目前可及翻译效果最好、免费的翻译工具，望各位理解。
+本插件支持六大翻译引擎（DeepL、棵岩翻译、彩云小译、百度反应、谷歌翻译），部分翻译引擎可能由于网络原因无法使用。如出现这种情况，请点击Error前方的蓝色EP按钮（或选中文字按D键），会弹出翻译对话框，在Translate选项卡中尝试让您满意的翻译引擎，并在Settings一栏拖动调整翻译引擎排序（第一个为默认引擎）以达到最佳翻译体验效果。
 
 ### 2. 是否有Safari版本、火狐版本？
-Safari版本正在开发中，预及年底上线，此版本会酌情收取一定费用，望用户理解。火狐浏览器内核与Chrome和Edge有一些差异，开发需要对代码进行较多更改，短期内并没有计划。如果你希望在上述平台开发类似插件，可以联系我，我将提供必要的帮助。
+Safari版本正在开发中，最近事情非常多，Safari版本开发至一半一直是搁置状态，我会尽快完成，望用户理解。火狐浏览器内核与Chrome和Edge有一些差异，开发需要对代码进行较多更改，短期内并没有计划。如果你希望在上述平台开发类似插件，可以联系我，我将提供必要的帮助。
 
 ### 3. 为什么有的杂志影响因子、分区显示错误？
 EasyPubMed插件内核数据采用杂志唯一的ISSN编号将Pubmed数据库杂志信息、JCR报告、中科院（CAS）文献情报分区表合并。由于合并过程中存在误差因而造成错误，如果您发现可以联系<easypubmed.project@gmail.com>。
@@ -363,9 +363,12 @@ EasyPubMed可以帮助从Unpaywall、Sci-hub等多更疲态获取全文。由于
 ### 6. 成功安装EasyPubMed后到360浏览器，为什么不显示工具条？
 很多浏览器如360浏览器有兼容模式、极速模式两种模式，在兼容模式中，EasyPubMed插件会被屏蔽。因此若想成功使用插件，请确保浏览器在极速模式下运行。
 
+### 7. 为什么工具条引用数、摘要、引用无法展示？google scholar中影响因子无法展示？
+这很可能与网络状态有关，请尝试使用VPN或其他合理的方式连接网络。
+
 ## 数据来源
 
-采用杂志唯一的ISSN编号将Pubmed数据库杂志信息、2023年JCR报告（SSCI、SCIE）、2022年12月发布的中科院（CAS）文献情报分区表增强版合并。我们采用Pubmed杂志缩写获取各杂志的影响因子、JCR分区及CAS分区。结果已经过手动核查。由于合并过程可能出现错误，如果您发现数据有误，您可以通过发送邮件到<easypubmed.project@gmail.com>或在<https://github.com/naivenaive/EasyPubMed/issues>中发起新提议以将错误信息报告给我们. 
+采用杂志唯一的ISSN编号将Pubmed数据库杂志信息、2023年JCR报告（SSCI、SCIE）、2023年12月发布的中科院（CAS）文献情报分区表增强版合并。我们采用Pubmed杂志缩写获取各杂志的影响因子、JCR分区及CAS分区。结果已经过手动核查。由于合并过程可能出现错误，如果您发现数据有误，您可以通过发送邮件到<easypubmed.project@gmail.com>或在<https://github.com/naivenaive/EasyPubMed/issues>中发起新提议以将错误信息报告给我们. 
 
 <p align="right">
 <a href="https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%20User%20Manual.md#data-source">English version: Data source</a>
