@@ -9,14 +9,14 @@
 
 [**如Github网站图片加载出现问题，可访问知乎获取相同内容**](https://zhuanlan.zhihu.com/p/150317440)
 
-> 更新至Version 0.1.21（2024.4.4）：[更新日志](https://github.com/naivenaive/EasyPubMed/blob/master/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.md)
-> - 更新最新2023年中科院（CAS）分区、JCR分区及影响因子
-> - 支持同时展示JCR及中科院（CAS）分区
+> 更新至Version 0.1.22（2024.6.24）：[更新日志](https://github.com/naivenaive/EasyPubMed/blob/master/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.md)
+> - 更新最新2024年JCR分区及影响因子
 > - 展示近五年IF趋势
+> - Reference Manager支持参考文献及附件备份与加载
 > - 一键截屏PubMed网站头部信息
-> - 支持小牛翻译
+> - 增加可国内访问的scihub网址
 
-> 关于翻译的说明：目前版本支持棵岩翻译、google、百度、彩云小译、deepl翻译引擎，翻译结果采用类似模仿网页翻译的方式而获取。部分翻译相关代码源自开源项目[EdgeTranslate](https://github.com/EdgeTranslate)。**如果上述翻译引擎提供商认为目前获取翻译接口的方法侵害其公司利益，请联系插件开发团队easypubmed.project@gmail.com,我们将删除该功能。**
+> 关于翻译的说明：目前版本支持deepl、彩云小译、棵岩翻译、小牛翻译、百度、google翻译引擎，翻译结果采用类似模仿网页翻译的方式而获取。部分翻译相关代码源自开源项目[EdgeTranslate](https://github.com/EdgeTranslate)。**如果上述翻译引擎提供商认为目前获取翻译接口的方法侵害其公司利益，请联系插件开发团队easypubmed.project@gmail.com,我们将删除该功能。**
 
 > **寻找合作伙伴**：为了让更多国家科研工作者使用此插件，**现需将EasyPubMed使用说明翻译为英文版本**。但由于本人时间、精力及水平有限，无法独自完成EasyPubMed使用说明英文翻译工作。如果您有兴趣帮助翻译EasyPubMed使用说明，请联系<easypubmed.project@gmail.com>。感谢您的参与。
 
@@ -65,12 +65,12 @@
 - **专为新版PubMed设计的工具条——看摘要、找全文、收藏文献**
   - 一键点击从UnpayWall、Sci-Hub多渠道获取全文PDF，找全文如此简单
   - 一键收集PubMed文章，好文献随时收藏并支持做多种标记，如星价、旗标、贴标签、写备注
-  -  展示最新杂志影响因子（2023年）、JCR分区（2023年）、中科院分区（2023年）及文章被引用次数
+  -  展示最新杂志影响因子（2024年）、JCR分区（2024年）、中科院分区（2023年）及文章被引用次数
   - 获取文章10000+种参考文献引用格式，覆盖绝大多数SCI杂志
   - 一键导出文献，方便导入Endnote
   - PubMed搜索界面展示完整摘要
 - **强大翻译功能——翻译竟然这么方便，文献阅读没烦恼**
-  - 支持多种翻译引擎（棵岩翻译、google、百度、彩云小译、deepl）
+  - 支持多种翻译引擎（deepl、彩云小译、棵岩翻译、小牛翻译、百度、google）
   - 一键翻译PubMed文章标题及摘要
   - 实时英文翻译 = 选中文字+“T”/“D”键
   - 网页PDF随时翻译=选中文字+“Ctrl+C”键
@@ -82,6 +82,7 @@
   - 全文PDF批量下载
   - 全文PDF自动重命名，乱码文件名从此消失
   - 文献附件（Supplementary Material）管理，文献附件也保存得井井有条
+  - 参考文献及附件备份与加载，更换电脑、浏览器保存的文献和附件也不会丢失
 - **文献筛选助手——筛选高质量文献如此简单**
   - 支持根据杂志影响因子、分区、被引用次数等6种模式筛选文献
   - PubMed杂志筛选助手帮你筛选高质量杂志
@@ -106,7 +107,7 @@
 如您觉得好用，希望您可以**在商店给予五星好评并留言**，这将有助于此项目的推广。
 
 如使用其他Chromium内核浏览器（如360极速浏览器），请按如下方法安装：
-1. 下载扩展插件: 点击[此链接](https://easypubmed.vercel.app/EasyPubMed_0.1.20.zip)或[百度网盘](https://pan.baidu.com/s/1j8yqHONQ-ecEqRVs8V_znw?pwd=k8v0)下载EasyPubMed
+1. 下载扩展插件: 点击[此链接](https://easypubmed.vercel.app/EasyPubMed_0.1.22.zip)或[百度网盘](https://pan.baidu.com/s/1UcKNLziJy9ub5Tz-dszsmA?pwd=wnwl)下载EasyPubMed
 2. 解压缩EasyPubMed.zip文件生成EasyPubMed文件夹
 3. 打开chrome或edge浏览器，在导航栏输入chrome://extensions（Chrome浏览器）或edge://extensions（Edge浏览器），**确保开发者模式打开**，点击‘加载解压缩的扩展’按钮，选择EasyPubMed文件夹即可加载成功。
 <p align="right">
@@ -129,7 +130,7 @@
 
 2. 显示杂志JCR分区或中科院分区（可在[弹出界面](#option)设置）
 
-   - JCR分区: 采用最新2023年 *Journal Citation Reports*数据，所显示的分区为该杂志在SCIE所用学科类别中的最佳排名。 比如，该杂志在A学科中排名Q1，在B学科中排名Q3，那么依据其最佳排名该杂志被标注为Q1。不同分区杂志采用不同颜色标注，Q1标注为红色，Q1标注为黄色，Q3标注为绿色，Q4标注为灰色。NA表示该杂志未被收录。
+   - JCR分区: 采用最新2024年 *Journal Citation Reports*数据，所显示的分区为该杂志在SCIE所用学科类别中的最佳排名。 比如，该杂志在A学科中排名Q1，在B学科中排名Q3，那么依据其最佳排名该杂志被标注为Q1。不同分区杂志采用不同颜色标注，Q1标注为红色，Q1标注为黄色，Q3标注为绿色，Q4标注为灰色。NA表示该杂志未被收录。
 
     <img src="md_image/image-20200621180515339.png" alt="image-20200621180515339" width=20% />
 
@@ -139,7 +140,7 @@
 
    - JCR分区与CAS分区差异请参见 https://zhuanlan.zhihu.com/p/78144183
 
-3. 显示杂志影响因子:  采用最新2020年 *Journal Citation Reports*数据，NA表示该杂志未被收录。
+3. 显示杂志影响因子:  采用最新2024年 *Journal Citation Reports*数据，NA表示该杂志未被收录。
    
 4. 显示该篇论文在Pubmed数据库中被引用次数，0表示该杂志未被引用，NA表示未能正确获取该杂志被引用信息。
 
@@ -294,7 +295,7 @@
 
 **左键点击浏览器右上角深蓝色EP（EasyPubMed）按钮将会出现弹出页面，您可在此页面进行参数设置、快捷功能访问并了解EasyPubMed使用。**
 
-1. 设置默认Sci-Hub地址，默认为 https://sci-hub.st/. 您可以在 https://sci-hub.st/, https://sci-hub.se/,  https://sci-hub.ru/,https://sci-hub.ee/, https://sci-hub.do/, https://sci-hub.ren/, https://sci-hub.cc/, https://sci-hub.tw/, https://sci-hub.shop/ 中选择合适的Sci-Hub地址。当你发现所有的文章均无法获取全文时，请在此处尝试更改Sci-Hub地址以解决。
+1. 设置默认Sci-Hub地址，默认为 https://sci-hub.st/. 您可以在 https://www.sci-hub.st/, https://www.sci-hub.se/,  https://www.sci-hub.ru/, https://sci-hub.st/, https://sci-hub.se/,  https://sci-hub.ru/,https://sci-hub.ee/, https://sci-hub.do/, https://sci-hub.ren/, https://sci-hub.cc/, https://sci-hub.tw/, https://sci-hub.shop/ 中选择合适的Sci-Hub地址。当你发现所有的文章均无法获取全文时，请在此处尝试更改Sci-Hub地址以解决。
 2. 如您不知道目前可以选择哪个Sci-Hub网站时，您可点击此处获取推荐的Sci-Hub网站列表
 3. <a id="option"></a> 点击More Options设置更多参数：
 - A、B. 选择展示JCR分区或CAS分区。默认采用JCR分区。
@@ -370,7 +371,7 @@ EasyPubMed可以帮助从Unpaywall、Sci-hub等多更疲态获取全文。由于
 
 ## 数据来源
 
-采用杂志唯一的ISSN编号将Pubmed数据库杂志信息、2023年JCR报告（SSCI、SCIE）、2023年12月发布的中科院（CAS）文献情报分区表增强版合并。我们采用Pubmed杂志缩写获取各杂志的影响因子、JCR分区及CAS分区。结果已经过手动核查。由于合并过程可能出现错误，如果您发现数据有误，您可以通过发送邮件到<easypubmed.project@gmail.com>或在<https://github.com/naivenaive/EasyPubMed/issues>中发起新提议以将错误信息报告给我们. 
+采用杂志唯一的ISSN编号将Pubmed数据库杂志信息、2024年JCR报告（SSCI、SCIE）、2023年12月发布的中科院（CAS）文献情报分区表增强版合并。我们采用Pubmed杂志缩写获取各杂志的影响因子、JCR分区及CAS分区。结果已经过手动核查。由于合并过程可能出现错误，如果您发现数据有误，您可以通过发送邮件到<easypubmed.project@gmail.com>或在<https://github.com/naivenaive/EasyPubMed/issues>中发起新提议以将错误信息报告给我们. 
 
 <p align="right">
 <a href="https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%20User%20Manual.md#data-source">English version: Data source</a>
