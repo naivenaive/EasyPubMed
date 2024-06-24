@@ -48,6 +48,8 @@
     - [4. 为什么EasyPubMed工具条所有的分区、IF信息都显示为‘NA’？](#4-为什么easypubmed工具条所有的分区if信息都显示为na)
     - [5. 为什么点击Full-text PDF后，有的PDF在网页打开，有的会下载PDF？](#5-为什么点击full-text-pdf后有的pdf在网页打开有的会下载pdf)
     - [6. 成功安装EasyPubMed后到360浏览器，为什么不显示工具条？](#6-成功安装easypubmed后到360浏览器为什么不显示工具条)
+    - [7. 为什么工具条引用数、摘要、引用无法展示？google scholar中影响因子无法展示？](#7-为什么工具条引用数、摘要、引用无法展示google scholar中影响因子无法展示)
+    -  [8. 为什么sci-hub链接无法加载？](#8-为什么sci-hub链接无法加载)
   - [数据来源](#数据来源)
   - [声明](#声明)
   - [隐私](#隐私)
@@ -368,6 +370,9 @@ EasyPubMed可以帮助从Unpaywall、Sci-hub等多更疲态获取全文。由于
 
 ### 7. 为什么工具条引用数、摘要、引用无法展示？google scholar中影响因子无法展示？
 这很可能与网络状态有关，请尝试使用VPN或其他合理的方式连接网络。
+
+### 8. 为什么sci-hub链接无法加载？
+这很可能与sci-hub地址配置有关，点击“EP”图标，设置sci-hub使用的url，国内使用建议使用https://www.sci-hub.st/、https://www.sci-hub.se/、https://www.sci-hub.ru/，其他网站有可能被屏蔽。
 
 ## 数据来源
 
