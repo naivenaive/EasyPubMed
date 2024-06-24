@@ -372,7 +372,7 @@ EasyPubMed可以帮助从Unpaywall、Sci-hub等多更疲态获取全文。由于
 这很可能与网络状态有关，请尝试使用VPN或其他合理的方式连接网络。
 
 ### 8. 为什么sci-hub链接无法加载？
-这很可能与sci-hub地址配置有关，点击“EP”图标，设置sci-hub使用的url，国内使用建议使用https://www.sci-hub.st/、https://www.sci-hub.se/、https://www.sci-hub.ru/，其他网站有可能被屏蔽。
+这很可能与sci-hub地址配置有关，点击“EP”图标，设置sci-hub使用的url，国内使用建议使用https://www.sci-hub.st/、 https://www.sci-hub.se/、 https://www.sci-hub.ru/, 其他网站有可能被屏蔽。
 
 ## 数据来源
 
