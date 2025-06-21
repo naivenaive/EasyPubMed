@@ -109,7 +109,7 @@
 如您觉得好用，希望您可以**在商店给予五星好评并留言**，这将有助于此项目的推广。
 
 如使用其他Chromium内核浏览器（如360极速浏览器），请按如下方法安装：
-1. 下载扩展插件: 点击[此链接](https://easypubmed.vercel.app/EasyPubMed_0.1.22.zip)或[百度网盘](https://pan.baidu.com/s/1UcKNLziJy9ub5Tz-dszsmA?pwd=wnwl)下载EasyPubMed
+1. 下载扩展插件: 点击[此链接](https://easypubmed.vercel.app/EasyPubMed_0.1.23.zip)或[百度网盘](https://pan.baidu.com/s/1zAATgyfm_PDFVjnrSfTxvQ?pwd=qfie)下载EasyPubMed
 2. 解压缩EasyPubMed.zip文件生成EasyPubMed文件夹
 3. 打开chrome或edge浏览器，在导航栏输入chrome://extensions（Chrome浏览器）或edge://extensions（Edge浏览器），**确保开发者模式打开**，点击‘加载解压缩的扩展’按钮，选择EasyPubMed文件夹即可加载成功。
 <p align="right">
