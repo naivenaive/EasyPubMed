@@ -9,12 +9,12 @@
 
 [**如Github网站图片加载出现问题，可访问知乎获取相同内容**](https://zhuanlan.zhihu.com/p/150317440)
 
-> 更新至Version 0.1.22（2024.6.24）：[更新日志](https://github.com/naivenaive/EasyPubMed/blob/master/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.md)
-> - 更新最新2024年JCR分区及影响因子
+> 更新至Version 0.1.23（2025.6.21）：[更新日志](https://github.com/naivenaive/EasyPubMed/blob/master/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.md)
+> - 更新最新2025年JCR分区及影响因子
+> - 更新最新2025年中科院分区
 > - 展示近五年IF趋势
 > - Reference Manager支持参考文献及附件备份与加载
 > - 一键截屏PubMed网站头部信息
-> - 增加可国内访问的scihub网址
 
 > 关于翻译的说明：目前版本支持deepl、彩云小译、棵岩翻译、小牛翻译、百度、google翻译引擎，翻译结果采用类似模仿网页翻译的方式而获取。部分翻译相关代码源自开源项目[EdgeTranslate](https://github.com/EdgeTranslate)。**如果上述翻译引擎提供商认为目前获取翻译接口的方法侵害其公司利益，请联系插件开发团队easypubmed.project@gmail.com,我们将删除该功能。**
 
@@ -67,7 +67,7 @@
 - **专为新版PubMed设计的工具条——看摘要、找全文、收藏文献**
   - 一键点击从UnpayWall、Sci-Hub多渠道获取全文PDF，找全文如此简单
   - 一键收集PubMed文章，好文献随时收藏并支持做多种标记，如星价、旗标、贴标签、写备注
-  -  展示最新杂志影响因子（2024年）、JCR分区（2024年）、中科院分区（2023年）及文章被引用次数
+  -  展示最新杂志影响因子（2025年）、JCR分区（2025年）、中科院分区（2025年）及文章被引用次数
   - 获取文章10000+种参考文献引用格式，覆盖绝大多数SCI杂志
   - 一键导出文献，方便导入Endnote
   - PubMed搜索界面展示完整摘要
@@ -132,17 +132,17 @@
 
 2. 显示杂志JCR分区或中科院分区（可在[弹出界面](#option)设置）
 
-   - JCR分区: 采用最新2024年 *Journal Citation Reports*数据，所显示的分区为该杂志在SCIE所用学科类别中的最佳排名。 比如，该杂志在A学科中排名Q1，在B学科中排名Q3，那么依据其最佳排名该杂志被标注为Q1。不同分区杂志采用不同颜色标注，Q1标注为红色，Q1标注为黄色，Q3标注为绿色，Q4标注为灰色。NA表示该杂志未被收录。
+   - JCR分区: 采用最新2025年 *Journal Citation Reports*数据，所显示的分区为该杂志在SCIE所用学科类别中的最佳排名。 比如，该杂志在A学科中排名Q1，在B学科中排名Q3，那么依据其最佳排名该杂志被标注为Q1。不同分区杂志采用不同颜色标注，Q1标注为红色，Q1标注为黄色，Q3标注为绿色，Q4标注为灰色。NA表示该杂志未被收录。
 
     <img src="md_image/image-20200621180515339.png" alt="image-20200621180515339" width=20% />
 
-   - CAS分区：采用2023年12月发布的中科院（CAS）文献情报分区表，所显示的分区为该杂志在所用学科类别中的最佳排名。我们采用B1、B2、B3、B4表示该杂志在1区、2区、3区、4区。不同分区杂志采用不同颜色标注，B1标注为红色，B1标注为黄色，B3标注为绿色，B4标注为灰色。NA表示该杂志未被收录。
+   - CAS分区：采用2025年发布的中科院（CAS）文献情报分区表，所显示的分区为该杂志在所用学科类别中的最佳排名。我们采用B1、B2、B3、B4表示该杂志在1区、2区、3区、4区。不同分区杂志采用不同颜色标注，B1标注为红色，B1标注为黄色，B3标注为绿色，B4标注为灰色。NA表示该杂志未被收录。
 
     <img src="md_image/image-20200621181012739.png" alt="image-20200621181012739" width=20% />
 
    - JCR分区与CAS分区差异请参见 https://zhuanlan.zhihu.com/p/78144183
 
-3. 显示杂志影响因子:  采用最新2024年 *Journal Citation Reports*数据，NA表示该杂志未被收录。
+3. 显示杂志影响因子:  采用最新2025年 *Journal Citation Reports*数据，NA表示该杂志未被收录。
    
 4. 显示该篇论文在Pubmed数据库中被引用次数，0表示该杂志未被引用，NA表示未能正确获取该杂志被引用信息。
 
@@ -376,7 +376,7 @@ EasyPubMed可以帮助从Unpaywall、Sci-hub等多更疲态获取全文。由于
 
 ## 数据来源
 
-采用杂志唯一的ISSN编号将Pubmed数据库杂志信息、2024年JCR报告（SSCI、SCIE）、2023年12月发布的中科院（CAS）文献情报分区表增强版合并。我们采用Pubmed杂志缩写获取各杂志的影响因子、JCR分区及CAS分区。结果已经过手动核查。由于合并过程可能出现错误，如果您发现数据有误，您可以通过发送邮件到<easypubmed.project@gmail.com>或在<https://github.com/naivenaive/EasyPubMed/issues>中发起新提议以将错误信息报告给我们. 
+采用杂志唯一的ISSN编号将Pubmed数据库杂志信息、2025年JCR报告（SSCI、SCIE）、2025年发布的中科院（CAS）文献情报分区表增强版合并。我们采用Pubmed杂志缩写获取各杂志的影响因子、JCR分区及CAS分区。结果已经过手动核查。由于合并过程可能出现错误，如果您发现数据有误，您可以通过发送邮件到<easypubmed.project@gmail.com>或在<https://github.com/naivenaive/EasyPubMed/issues>中发起新提议以将错误信息报告给我们. 
 
 <p align="right">
 <a href="https://github.com/naivenaive/EasyPubMed/blob/master/EasyPubMed%20User%20Manual.md#data-source">English version: Data source</a>
