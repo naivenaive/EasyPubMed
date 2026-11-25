@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128">
+        <rect x="0" y="0" width="128" height="128" fill="#20558a" stroke="none" stroke-width="1" fill-opacity="1"></rect>
+<g id="obj_3" transform="matrix(1,0,0,1,0,31.259999999999998)" opacity="1" display="inline"><path d="M 50.933 0 L 50.933 12.783 L 0 12.783 L 0 0 L 50.933 0 Z M 49.592 26.845 L 49.592 38.348 L 0 38.348 L 0 26.845 L 49.592 26.845 Z M 50.933 65.195 L 0 65.195 L 0 52.413 L 50.933 52.413 L 50.933 65.195 Z M 102.534 35.787 C 109.038 35.619 114.262 30.532 114.262 24.288 C 114.262 18.045 109.038 12.956 102.534 12.787 L 102.534 12.783 L 67.686 12.783 L 67.686 0 L 102.534 0 C 116.592 0 128 10.88 128 24.287 C 128 37.693 116.592 48.576 102.534 48.576 L 81.089 48.576 L 81.089 65.48 L 67.686 65.48 L 67.686 48.576 L 67.686 36.718 L 67.686 35.793 L 102.534 35.793 L 102.534 35.787 Z " fill-opacity="1" fill="#ffffff" stroke="none" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter"></path><defs></defs></g>
+
+    </svg>

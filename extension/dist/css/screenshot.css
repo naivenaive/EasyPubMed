@@ -1,0 +1,74 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: block;
+  position: fixed;
+}
+
+#container-box {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 70%;
+  width: 70%;
+  flex-direction: column;
+  justify-content: stretch;
+  transform: translate(-50%, -50%);
+  row-gap: 10px;
+  overflow: hidden;
+}
+
+#edit {
+  display: flex;
+  width: 100%;
+  min-height: 100px;
+  flex-grow: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+#edit::-webkit-scrollbar {
+  /* display: none; */
+}
+
+#toolbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.toolbar-button {
+  background: #5eaeff;
+  color: white;
+  padding: 4px 10px;
+  font-family: BlinkMacSystemFont;
+  font-size: small;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.toolbar-button:hover {
+  background: #0071bc;
+}
+
+#close {
+  position: fixed;
+  right: 10%;
+  top: 10%;
+  background: #d0d0d0;
+  height: 26px;
+  width: 26px;
+  cursor: pointer;
+  border-radius: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#close:hover {
+  background: #ffffff;
+}
