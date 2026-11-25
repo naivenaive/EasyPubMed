@@ -15,8 +15,7 @@
     "default_popup": "popup.html"
   },
   "background": {
-    "service_worker": "js/background.js",
-    "module": true
+    "service_worker": "js/background.js"
   },
   "content_security_policy": {
     "extension_pages": "script-src 'self'; object-src 'self'",
