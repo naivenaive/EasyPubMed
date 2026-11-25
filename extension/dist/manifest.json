@@ -1,0 +1,110 @@
+{
+  "name": "EasyPubMedicine",
+  "manifest_version": 3,
+  "version": "0.1.24",
+  "description": "EasyPubMedicine makes PubMed easy to use",
+  "short_name": "EP",
+  "icons": {
+    "16": "images/ep_16.png",
+    "48": "images/ep_48.png",
+    "128": "images/ep_128.png"
+  },
+  "action": {
+    "default_icon": "images/ep_128.png",
+    "default_title": "EasyPubMedicine",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "js/background.js",
+    "module": true
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'",
+    "sandbox": "sandbox allow-scripts allow-forms allow-popups allow-modals; script-src 'self' 'unsafe-inline' 'unsafe-eval'; child-src 'self'"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "js/content-script.js"
+      ],
+      "css": [
+        "css/style.css"
+      ],
+      "matches": [
+        "<all_urls>"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "images/*.png",
+        "data/*.*",
+        "data/locales/*.xml",
+        "css/style.css",
+        "pubmedFilter.html",
+        "referenceManager.html",
+        "esSideBar/*.*",
+        "esSidebar.html",
+        "screenshot.html"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "permissions": [
+    "declarativeNetRequest",
+    "unlimitedStorage",
+    "downloads",
+    "downloads.open",
+    "clipboardRead",
+    "clipboardWrite",
+    "storage",
+    "contextMenus",
+    "debugger"
+  ],
+  "host_permissions": [
+    "https://www.sci-hub.st/",
+    "https://www.sci-hub.se/",
+    "https://www.sci-hub.ru/",
+    "https://sci-hub.st/",
+    "https://sci-hub.se/",
+    "https://sci-hub.ru/",
+    "https://sci-hub.ee/",
+    "https://sci-hub.do/",
+    "https://sci-hub.ren/",
+    "https://sci-hub.cc/",
+    "https://sci-hub.tw/",
+    "https://sci-hub.wf/",
+    "https://sci-hub.shop/",
+    "http://libgen.gs/",
+    "https://cn.bing.com/dict/",
+    "https://translate.google.com/",
+    "https://translate.google.cn/",
+    "https://gitee.com/easypubmed/easypubmed/",
+    "https://www.ncbi.nlm.nih.gov/",
+    "https://www.deepl.com/",
+    "https://api.openai.com/",
+    "*://*.qq.com/",
+    "*://*.deepl.com/",
+    "*://*.google.com/*",
+    "*://*.ncbi.nlm.nih.gov/*",
+    "file://*/*",
+    "http://lx2.loc.gov/",
+    "*://*.amazon.com/*",
+    "https://easypubmed.vercel.app/",
+    "https://pubmed.ncbi.nlm.nih.gov/",
+    "https://lingocloud.cyapi.cn/"
+  ]
+}

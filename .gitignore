@@ -1,0 +1,22 @@
+# macOS metadata and Finder files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100/
+.Trashes/
+.fseventsd/
+.TemporaryItems/
+__MACOS__/
+
+# Local dependencies
+node_modules/
+
+# Local environment configuration (keep shareable examples)
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# extension/dist is intentionally NOT ignored:
+# this repository currently maintains the distributed extension files.
