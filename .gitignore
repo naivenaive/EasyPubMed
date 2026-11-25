@@ -20,3 +20,6 @@ node_modules/
 
 # extension/dist is intentionally NOT ignored:
 # this repository currently maintains the distributed extension files.
+
+# Chrome-generated indexes created when loading the unpacked extension
+/extension/dist/_metadata/
